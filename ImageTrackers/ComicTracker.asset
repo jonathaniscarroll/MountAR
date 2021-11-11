@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ComicTracker
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4780488246771038683
+  m_GuidHigh: 13638525128704320436
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5540907343162710583
+      m_GuidHigh: 11246927476115466900
+    m_SerializedTextureGuid:
+      m_GuidLow: 9540569614958594710
+      m_GuidHigh: 8276680851664128809
+    m_Size: {x: 1, y: 1.5454545}
+    m_SpecifySize: 1
+    m_Name: AR_p_21
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5250707755538049377
+      m_GuidHigh: 7121041812392207769
+    m_SerializedTextureGuid:
+      m_GuidLow: 11847828864806866042
+      m_GuidHigh: 555268233131306344
+    m_Size: {x: 1, y: 1.65}
+    m_SpecifySize: 1
+    m_Name: AR_p_3
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5217627226655194393
+      m_GuidHigh: 14985101559783278232
+    m_SerializedTextureGuid:
+      m_GuidLow: 8359938681459154644
+      m_GuidHigh: 7896407761385770712
+    m_Size: {x: 1, y: 1.5547945}
+    m_SpecifySize: 1
+    m_Name: Page46
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5296229553248866793
+      m_GuidHigh: 9071592641317125250
+    m_SerializedTextureGuid:
+      m_GuidLow: 3765210686827057412
+      m_GuidHigh: 1408901219090569992
+    m_Size: {x: 1, y: 1.6}
+    m_SpecifySize: 1
+    m_Name: AR_p_47
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4764462836107954892
+      m_GuidHigh: 8236227912068571776
+    m_SerializedTextureGuid:
+      m_GuidLow: 3768087199366150889
+      m_GuidHigh: 2185218853929250521
+    m_Size: {x: 1, y: 1.65}
+    m_SpecifySize: 1
+    m_Name: AR_p_77
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5215671790897956469
+      m_GuidHigh: 5058181316341600698
+    m_SerializedTextureGuid:
+      m_GuidLow: 17631651733309445917
+      m_GuidHigh: 6674477169704608664
+    m_Size: {x: 1, y: 1.6}
+    m_SpecifySize: 1
+    m_Name: AR_p_80
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5222256552511900266
+      m_GuidHigh: 17921283143694333833
+    m_SerializedTextureGuid:
+      m_GuidLow: 2649819526305673698
+      m_GuidHigh: 7116685764138663019
+    m_Size: {x: 1, y: 1.65}
+    m_SpecifySize: 1
+    m_Name: AR_p_110
+    m_Texture: {fileID: 0}

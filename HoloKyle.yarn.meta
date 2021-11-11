@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: 7de62f1c9dc649c46828aff3d79a9566
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-CA
+  stringIDs:
+  - line:HoloKyle-Page1-0
+  - line:HoloKyle-Page1-1
+  - line:HoloKyle-Page1-2
+  - line:HoloKyle-Page1-3
+  - line:HoloKyle-Page1-4
+  - line:HoloKyle-Page1-5
+  - line:HoloKyle-Page1-6
+  - line:HoloKyle-Page1-7
+  - line:HoloKyle-Page1-8
+  - line:HoloKyle-Page1-9
+  - line:HoloKyle-Page21-10
+  - line:HoloKyle-Page21-11
+  - line:HoloKyle-page21questions-12
+  - line:HoloKyle-page21questions-13
+  - line:HoloKyle-page21questions-14
+  - line:HoloKyle-page21questions-15
+  - line:HoloKyle-page21questions-16
+  - line:HoloKyle-page21questions-17
+  - line:HoloKyle-page21questions-18
+  AnyImplicitStringIDs: 1
+  isSuccesfullyParsed: 1
+  parseErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 7de62f1c9dc649c46828aff3d79a9566, type: 3}
+  localizations: []
+  localizationDatabase: {instanceID: 0}

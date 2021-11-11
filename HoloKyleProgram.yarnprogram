@@ -1,0 +1,5 @@
+﻿title: Program
+---
+<<declare $questions = false>>
+<<declare $cubicle = 0>>
+===

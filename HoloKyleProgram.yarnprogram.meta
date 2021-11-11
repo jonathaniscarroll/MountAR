@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 943231723a113394b8ac0bf7e0a0d12b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
+  sourceScripts:
+  - {fileID: 6391573757903218779, guid: 027d49282c3704f19930cad48e99fa85, type: 3}
+  compileError: 
+  serializedDeclarations:
+  - name: $questions
+    type: 3
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    sourceYarnAsset: {instanceID: 0}
+  - name: $cubicle
+    type: 1
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    sourceYarnAsset: {instanceID: 0}

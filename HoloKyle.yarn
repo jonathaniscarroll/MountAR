@@ -1,0 +1,363 @@
+title: Page1
+tags: 
+colorID: 0
+position: 401,210
+---
+Hi. I’m Kyle. I work just a couple of floors directly up from here. I just thought I’d check in on you and make sure your first day is going ok. Are you excited to be working for Tough Guy Mountain?
+->Yes
+    Of course. Tough Guy Mountain is a very special place!
+->No
+    Of course. Tough Guy Mountain is... a very special place.
+Look, I’ve got to make it to my 12 o’clock, but could you do me a favor.
+If you see a picture of me, in the corner of  this onboarding manual, look at it through your peripatetic.
+I’m sure to have some helpful hints and company secrets!
+Good luck, Mr. Phone should be with you any minute.
+Don’t let this place swallow you up.
+===
+title: Page21
+tags: 
+colorID: 0
+position: 625,208
+---
+Huh?! What are you doing outside the Board Room?
+In fact, what are you doing outside the building? Why are you in a Cococo?
+<<jump page21questions>>
+===
+title: page21questions
+tags: 
+colorID: 0
+position: 625,423
+---
+<<if $questions is false>>
+<<set $questions to true>>
+I see you’re an intern now. This is highly unusual
+<<else>>
+Any other questions you have for me?
+<<endif>>
+->Where am I?
+    You’re in the Brandscape. Brandzone 1a to be specific.
+    <<jump page21questions>>
+->What is this building?
+    <<jump page21questions>>
+->What’s a Cococo?
+    <<jump page21questions>>
+->I don’t have any questions. I’d like to go inside.
+    <<jump iDialogue_iLisa_1>>
+===
+title: Cubicle-intro
+tags: 
+colorID: 0
+position: 738,666
+---
+Well if you are an intern now, it’s appropriate that you’re in Intern Purgatory.
+It’s also appropriate that you’ve stopped being naked.
+I suppose I should be a good Holographic assistant and show you around your live/work cubicle.
+Let’s start the tour!
+===
+title: Cubicle-beanbag
+tags: 
+colorID: 0
+position: 335,859
+---
+A dutiful intern prefers to stand.
+But we recognize the opportunity to extract valuable labor from the intern’s recreation moments as well.
+That’s why we make sure you’re comfortable in your live/workspace.
+<<set $cubicle to $cubicle+1>>
+<<if $cubicle>5 >>
+<<jump iDialogue_iStan15_1>>
+<<endif>>
+===
+title: Cubicle-watercooler
+tags: 
+colorID: 0
+position: 532,857
+---
+More than just a watercooler!
+This device is your source of unlimited americanos, carefully rationed food pellets, and regular bathing opportunities
+<<set $cubicle to $cubicle+1>>
+<<if $cubicle>5 >>
+<<jump iDialogue_iStan15_1>>
+<<endif>>
+===
+title: Cubicle-door
+tags: 
+colorID: 0
+position: 686,864
+---
+This is the only way out of the cubicle.
+Well, you could jump off the cubicle’s edge but I don’t recommend it.
+Right now the door opens up to nothing, but if your supervisor wants to send you somewhere,
+you’ll get an email that contains a downloadable location file.
+So don’t worry, you aren’t trapped here forever ever!
+<<set $cubicle to $cubicle+1>>
+<<if $cubicle>5 >>
+<<jump iDialogue_iStan15_1>>
+<<endif>>
+===
+title: Cubicle-desk
+tags: 
+colorID: 0
+position: 837,875
+---
+This is where the real intern magic happens.
+This is where the unpaid intern does their labor.
+This is where the intern develops their personal brand.
+New interns (like you) work on their personal brand until instructed otherwise.
+Your console comes equipped with all the software you need to succeed.
+<<set $cubicle to $cubicle+1>>
+<<if $cubicle>5 >>
+<<jump iDialogue_iStan15_1>>
+<<endif>>
+===
+title: Cubicle-sleepingbag
+tags: 
+colorID: 0
+position: 978,848
+---
+Even interns need a little rest and relaxation from time to time.
+<<set $cubicle to $cubicle+1>>
+<<if $cubicle>5 >>
+<<jump iDialogue_iStan15_1>>
+<<endif>>
+===
+title: Cubicle-cigarettes
+tags: 
+colorID: 0
+position: 1126,850
+---
+I don’t know why there’s a jar of used cigarettes.
+There’s an urban legend about “nightshift interns”.
+Apparently, they come while you’re sleeping and use your computer.
+I think that’s just a story interns tell each other to be spooky.
+<<set $cubicle to $cubicle+1>>
+<<if $cubicle>5 >>
+<<jump iDialogue_iStan15_1>>
+<<endif>>
+===
+title: iDialogue_iStan15_1
+tags: 
+colorID: 0
+position: -387,636
+---
+iDialogue from iStan15
+Welcome to intern purgatory!
+My name is intern...
+Intern Stan!
+I know you already have Holographic Kyle to show you around,
+so I’ll just be chiming in from time to time
+to give you an intern perspective!
+<<jump iDialogue_iStan14_1>>
+===
+title: iDialogue_iStan14_1
+tags: 
+colorID: 0
+position: -131,639
+---
+iDialogue from iStan14
+Hello. My name is Intern Stan.
+There’s a lot more to this place than meets the eye, and none of it is good.
+Don’t trust anyone who is messaging you.
+Not even me.
+<<jump iDialogue_iCeo_1>>
+===
+title: iDialogue_iCeo_1
+tags: 
+colorID: 0
+position: 87,642
+---
+iDialogue from iCeo
+It was a pleasure to meet you earlier.
+I hope you don’t mind if we exchange correspondences from time to time?
+->Yes
+    Great. I’m sure you’ll hear from me soon. Take good care of my coverall.
+->No
+    Have we gotten off on the wrong foot?
+    That’s unfortunate, but not a major obstacle.
+    I’ll leave some words in your inbox from time to time.
+    What you do with those words is up to you!
+===
+title: After_Origin
+tags: 
+colorID: 0
+position: 859,213
+---
+Huh?! That’s not the story you were supposed to be told.
+That's a load of baseless rumours!
+I’m not quite clear on how that got into your intern manual.
+If you want the official, verified story, you can check out the bios for Joan Popular and Ivan Phone in the TGM database.
+I’m going to look into what’s going wrong.
+Maybe you should stop reading until I can find out where these stories are coming from.
+<<jump iDialogue_iCeo_2>>
+===
+title: iDialogue_iCeo_2
+tags: 
+colorID: 0
+position: 96,824
+---
+iDialogue from iCeo
+If you enjoyed that, wait until you see what I’ve got for you next!
+->Who are you?
+    I'm just a humble intern,
+    working to make TGM a better place.
+->Why are you sending me these stories?
+    In my experience, people don’t do well when they’re starved for information.
+    We’re so used to getting a lot of information all the time.
+    When you don’t get enough information on a subject you're interested in,
+    your brain tends to speculate and make the rest up.
+    I just like sending people enough information so that they can make informed decisions.
+===
+title: iDialogue_iLisa_1
+tags: 
+colorID: 0
+position: -619,598
+---
+iDialogue from iLisa
+Hi! I’m Lisa. Is it your first day too?
+->No
+    Oh come on, I know a fresh intern when I see one ;)
+->Yes
+     It’s nice to make a friend, especially one going through something similar.
+    This is a very strange workplace.
+    I hope your cubicle is close to mine and we drift by each other at some point.
+    Until then, let’s keep in touch.
+    It’s not easy just being by yourself, working on your personal brand.
+->Drifting cubicle?
+    Yeah...Wait are you not in Intern Purgatory? Where are you?
+->I don’t know… outside a giant pyramid?
+    Huh. I guess not all unpaid internships are created equal.
+    Every other intern I’ve met has been in a floating cubicle, just like me!
+    Maybe you’re special? Keep me in the loop. Nice to meet you!
+===
+title: TGM_HQ
+tags: 
+colorID: 0
+position: 1093,211
+---
+What can I say? The TGM Corporate HQ is a truly magical place!
+Intern Purgatory, Intern Testing Facility, Americanotopia, the Glass Offices, the Brass Offices, The Executive Empyrean. It truly has it all!
+You can learn more about each of these by checking out the TGM Database on your peripatetic.
+<<jump iDialogue_iLisa_2>>
+===
+title: iDialogue_iLisa_2
+tags: 
+colorID: 0
+position: -618,768
+---
+iDialogue from iLisa
+Hey! I just got a promotion! Or like a re-assignment?
+I’m working all the way up in the Brass Offices on a campaign called “After Now”.
+I don’t know much about it yet but it sounds like a lot of work.
+Mind if I bounce some ideas off you from time to time?
+->I don’t mind at all
+    Thanks (name)! You’re the best intern in this whole office.
+->Actually I do mind.
+    Haha (name)! You’re a spicy intern!
+<<jump iDialogue_iStan15_2>>
+===
+title: iDialogue_iStan15_2
+tags: 
+colorID: 0
+position: -386,841
+---
+iDialogue from iStan15
+Ah the HQ. Best place in the world!
+My favorite floor is Intern Purgatory but some of my fondest memories were at the DiY Giftshop in the glass offices.
+What’s your favorite?
+-> the intern stan cloning facility
+    Oh! That’s a very quaint thing to say. See you later!
+<<jump iDialogue_iStan14_2>>
+===
+title: iDialogue_iStan14_2
+tags: 
+colorID: 0
+position: -133,826
+---
+iDialogue from iStan14
+You can’t trust what that app or map tells you.
+Most of the TGM is hidden.
+You only see what the higherups want you to see!
+===
+title: DeadBeige
+tags: 
+colorID: 0
+position: 1320,207
+---
+What was that?!
+You definitely weren’t supposed to see that.
+I asked you to stop reading.
+That IP was stolen from a high-up exec.
+You’ve been exposed to compromised IP.
+If your supervisors find out, there could be consequences.
+Look, I don’t want you to get in trouble.
+It’s not your fault the onboarding process is so wonky right now.
+I’m going to figure out what’s going on.
+But please don’t read any more material until I do. 
+<<jump iDialogue_iLisa_3>>
+===
+title: iDialogue_iLisa_3
+tags: 
+colorID: 0
+position: -615,973
+---
+iDialogue from iLisa
+Rumour has it you got your hands on some compromised IP?
+Wow, you really know how to have a first day at work!
+How did you get it? You should probably keep it to yourself.
+I’ll do my best to stop the spread of gossip about you.
+<<jump iDialogue_iStan14_3>>
+===
+title: iDialogue_iStan14_3
+tags: 
+colorID: 0
+position: -133,1028
+---
+iDialogue from iStan14
+I heard you are in possession of some compromised IP belonging to a C-Level Executive.
+Would you share it with me?
+I can protect you.
+<<jump iDialogue_iStan15_3>>
+===
+title: iDialogue_iStan15_3
+tags: 
+colorID: 0
+position: -384,1047
+---
+iDialogue from iStan15
+Whatever that IP said about Beige Cathy is probably just a doctored, fake piece of intellectual property.
+Beige Cathy is probably the purest person I’ve ever had the privilege to work under.
+You wouldn’t want to get on her bad side though.
+She's a C-Level Executive. Basically a god around these parts, buddy.
+The best thing to do is probably give it back and pretend you didn’t see anything!
+===
+title: Conclusion
+tags: 
+colorID: 0
+position: 1557,206
+---
+Hi. I’m Kyle.
+I work just a couple of floors directly up from here.
+I just thought I’d check in on you and make sure your first day is going ok.
+Are you excited to be working for Tough Guy Mountain?
+->Yes
+->No
+ Of course. Tough Guy Mountain is a… very special place.
+Look, I’ve got to make it to my 12 o’clock,  Intern Lisa should be with you shortly.
+Don’t let this place swallow you up.
+<<jump iDialogue_iLisa_4>>
+===
+title: iDialogue_iLisa_4
+tags: 
+colorID: 0
+position: -616,1183
+---
+iDialogue from iLisa
+Hey.
+I got word that Holographic Kyle was going to report you to the higher-ups because your onboarding process went wonky.
+I didn’t want to see anything bad happen to you so… I reset his program.
+Look… I know you didn’t ask for any of this, but TGM is a very strange place,
+so whatever you do with this info, whatever you do with the rest of your unpaid internship…
+just promise me you’ll be careful, okay?
+Help me out on this After Now campaign and we’ll call it even.
+Well I’ve got to get back to work.
+Good luck Intern! Don’t let this place swallow you up!
+===
