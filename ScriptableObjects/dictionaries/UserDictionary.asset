@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be4effbcbb2e4035872913741bc71f8, type: 3}
+  m_Name: UserDictionary
+  m_EditorClassIdentifier: 
+  NamedStringReferences:
+  - Name: username
+    StringReference:
+      UseConstant: 0
+      ConstantValue: 
+      Variable: {fileID: 11400000, guid: a7b83f197646340dd9cff70bca00b1ea, type: 2}
+  - Name: userid
+    StringReference:
+      UseConstant: 0
+      ConstantValue: 
+      Variable: {fileID: 11400000, guid: e734a23b23c3b4c0da0878aa62c289e8, type: 2}
+  - Name: Mask
+    StringReference:
+      UseConstant: 0
+      ConstantValue: 
+      Variable: {fileID: 11400000, guid: 6bdccd943d9cd4204ac19da28024d080, type: 2}
+  - Name: Robe
+    StringReference:
+      UseConstant: 0
+      ConstantValue: 
+      Variable: {fileID: 11400000, guid: 94d0bda0d2ffe48cd8c35147d00d9bdd, type: 2}
+  - Name: Face
+    StringReference:
+      UseConstant: 0
+      ConstantValue: 
+      Variable: {fileID: 11400000, guid: 6b7557c23bdc84fe6af5a24712e028a6, type: 2}
+  - Name: Neck
+    StringReference:
+      UseConstant: 0
+      ConstantValue: 
+      Variable: {fileID: 11400000, guid: a72d2b03899f44ee49899869d8f76270, type: 2}
+  DictionaryEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 73745486589b344f7965379a513b4be4, type: 2}
+        m_TargetAssemblyTypeName: StringDictionaryGameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
