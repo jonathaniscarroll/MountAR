@@ -20,6 +20,7 @@ public class TransformRotateTowards : MonoBehaviour
 	public float Speed;
 	
 	public void RotateTowards(){
+		if(TargetToRotate!=null&&TargetToRotateToward!=null)
 		TargetToRotate.rotation = Quaternion.Slerp(TargetToRotate.rotation,TargetToRotateToward.rotation,Speed);
 	}
 }
