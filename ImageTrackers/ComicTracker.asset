@@ -44,7 +44,7 @@ MonoBehaviour:
     m_Size: {x: 1, y: 1.5547945}
     m_SpecifySize: 1
     m_Name: Page46
-    m_Texture: {fileID: 0}
+    m_Texture: {fileID: 2800000, guid: 1c6b9ed477f07404d84e09a305ad956d, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5296229553248866793
       m_GuidHigh: 9071592641317125250
@@ -54,7 +54,7 @@ MonoBehaviour:
     m_Size: {x: 1, y: 1.6}
     m_SpecifySize: 1
     m_Name: AR_p_47
-    m_Texture: {fileID: 0}
+    m_Texture: {fileID: 2800000, guid: b4d4d104b72b3440081b82af316c8d13, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 4764462836107954892
       m_GuidHigh: 8236227912068571776

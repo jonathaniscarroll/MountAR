@@ -232,7 +232,7 @@ Hi! I’m Lisa. Is it your first day too?
 title: TGM_HQ
 tags: 
 colorID: 0
-position: 1093,211
+position: 1091,208
 ---
 What can I say? The TGM Corporate HQ is a truly magical place!
 Intern Purgatory, Intern Testing Facility, Americanotopia, the Glass Offices, the Brass Offices, The Executive Empyrean. It truly has it all!
@@ -242,18 +242,18 @@ You can learn more about each of these by checking out the TGM Database on your 
 title: iDialogue_iLisa_2
 tags: 
 colorID: 0
-position: -618,768
+position: -619,767
 ---
 iDialogue from iLisa
-Hey! I just got a promotion! Or like a re-assignment?
-I’m working all the way up in the Brass Offices on a campaign called “After Now”.
-I don’t know much about it yet but it sounds like a lot of work.
-Mind if I bounce some ideas off you from time to time?
+Lisa: Hey! I just got a promotion! Or like a re-assignment?
+Lisa: I’m working all the way up in the Brass Offices on a campaign called “After Now”.
+Lisa: I don’t know much about it yet but it sounds like a lot of work.
+Lisa: Mind if I bounce some ideas off you from time to time?
 ->I don’t mind at all
-    Thanks (name)! You’re the best intern in this whole office.
+    Lisa: Thanks (name)! You’re the best intern in this whole office.
 ->Actually I do mind.
-    Haha (name)! You’re a spicy intern!
-<<jump iDialogue_iStan15_2>>
+    Lisa: Haha (name)! You’re a spicy intern!
+<<DialogueTrigger iDialogue iDialogue_iStan15_2>>
 ===
 title: iDialogue_iStan15_2
 tags: 

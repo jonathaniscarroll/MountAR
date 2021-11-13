@@ -7,12 +7,8 @@ Hi. I’m Kyle. I work just a couple of floors directly up from here. I just tho
 ->Yes
     Of course. Tough Guy Mountain is a very special place!
 ->No
-    Of course. Tough Guy Mountain is... a very special place.
-Look, I’ve got to make it to my 12 o’clock, but could you do me a favor.
-If you see a picture of me, in the corner of  this onboarding manual, look at it through your peripatetic.
-I’m sure to have some helpful hints and company secrets!
-Good luck, Mr. Phone should be with you any minute.
-Don’t let this place swallow you up.
+    Of course. Tough Guy Mountain is... a very special place. What should I call you?
+<<YarnCommand HoloKyle NameEntry>>
 ===
 title: Page21
 tags: 
@@ -42,7 +38,7 @@ Any other questions you have for me?
 ->What’s a Cococo?
     <<jump page21questions>>
 ->I don’t have any questions. I’d like to go inside.
-    <<jump iDialogue_iLisa_1>>
+    <<DialogueTrigger iDialogue iDialogue_iLisa_1>>
 ===
 title: Cubicle-intro
 tags: 
@@ -52,7 +48,7 @@ position: 738,666
 Well if you are an intern now, it’s appropriate that you’re in Intern Purgatory.
 It’s also appropriate that you’ve stopped being naked.
 I suppose I should be a good Holographic assistant and show you around your live/work cubicle.
-Let’s start the tour!
+Let’s start the tour! Click on some of this stuff!
 ===
 title: Cubicle-beanbag
 tags: 
@@ -64,7 +60,7 @@ But we recognize the opportunity to extract valuable labor from the intern’s r
 That’s why we make sure you’re comfortable in your live/workspace.
 <<set $cubicle to $cubicle+1>>
 <<if $cubicle>5 >>
-<<jump iDialogue_iStan15_1>>
+<<DialogueTrigger iDialogue iDialogue_iStan15_1>>
 <<endif>>
 ===
 title: Cubicle-watercooler
@@ -91,13 +87,13 @@ you’ll get an email that contains a downloadable location file.
 So don’t worry, you aren’t trapped here forever ever!
 <<set $cubicle to $cubicle+1>>
 <<if $cubicle>5 >>
-<<jump iDialogue_iStan15_1>>
+<<DialogueTrigger iDialogue iDialogue_iStan15_1>>
 <<endif>>
 ===
 title: Cubicle-desk
 tags: 
 colorID: 0
-position: 837,875
+position: 835,874
 ---
 This is where the real intern magic happens.
 This is where the unpaid intern does their labor.
@@ -106,18 +102,18 @@ New interns (like you) work on their personal brand until instructed otherwise.
 Your console comes equipped with all the software you need to succeed.
 <<set $cubicle to $cubicle+1>>
 <<if $cubicle>5 >>
-<<jump iDialogue_iStan15_1>>
+<<DialogueTrigger iDialogue iDialogue_iStan15_1>>
 <<endif>>
 ===
 title: Cubicle-sleepingbag
 tags: 
 colorID: 0
-position: 978,848
+position: 976,846
 ---
 Even interns need a little rest and relaxation from time to time.
 <<set $cubicle to $cubicle+1>>
 <<if $cubicle>5 >>
-<<jump iDialogue_iStan15_1>>
+<<DialogueTrigger iDialogue iDialogue_iStan15_1>>
 <<endif>>
 ===
 title: Cubicle-cigarettes
@@ -131,7 +127,7 @@ Apparently, they come while you’re sleeping and use your computer.
 I think that’s just a story interns tell each other to be spooky.
 <<set $cubicle to $cubicle+1>>
 <<if $cubicle>5 >>
-<<jump iDialogue_iStan15_1>>
+<<DialogueTrigger iDialogue iDialogue_iStan15_1>>
 <<endif>>
 ===
 title: iDialogue_iStan15_1
@@ -146,7 +142,7 @@ Intern Stan!
 I know you already have Holographic Kyle to show you around,
 so I’ll just be chiming in from time to time
 to give you an intern perspective!
-<<jump iDialogue_iStan14_1>>
+<<DialogueTrigger iDialogue iDialogue_iStan14_1>>
 ===
 title: iDialogue_iStan14_1
 tags: 
@@ -158,7 +154,7 @@ Hello. My name is Intern Stan.
 There’s a lot more to this place than meets the eye, and none of it is good.
 Don’t trust anyone who is messaging you.
 Not even me.
-<<jump iDialogue_iCeo_1>>
+<<DialogueTrigger iDialogue iDialogue_iCeo_1>>
 ===
 title: iDialogue_iCeo_1
 tags: 
@@ -166,7 +162,7 @@ colorID: 0
 position: 87,642
 ---
 iDialogue from iCeo
-It was a pleasure to meet you earlier.
+It was a pleasure to meet you earlier, {$username}
 I hope you don’t mind if we exchange correspondences from time to time?
 ->Yes
     Great. I’m sure you’ll hear from me soon. Take good care of my coverall.
@@ -187,7 +183,7 @@ I’m not quite clear on how that got into your intern manual.
 If you want the official, verified story, you can check out the bios for Joan Popular and Ivan Phone in the TGM database.
 I’m going to look into what’s going wrong.
 Maybe you should stop reading until I can find out where these stories are coming from.
-<<jump iDialogue_iCeo_2>>
+<<DialogueTrigger iDialogue iDialogue_iCeo_2>>
 ===
 title: iDialogue_iCeo_2
 tags: 
@@ -233,10 +229,8 @@ tags:
 colorID: 0
 position: 1093,211
 ---
-What can I say? The TGM Corporate HQ is a truly magical place!
-Intern Purgatory, Intern Testing Facility, Americanotopia, the Glass Offices, the Brass Offices, The Executive Empyrean. It truly has it all!
-You can learn more about each of these by checking out the TGM Database on your peripatetic.
-<<jump iDialogue_iLisa_2>>
+Intern Purgatory can actually be a nice place to hang out with your intern friends. That is, if your cubicles ever happen to cross paths.
+<<DialogueTrigger iDialogue iDialogue_iLisa_2>>
 ===
 title: iDialogue_iLisa_2
 tags: 
@@ -245,27 +239,30 @@ position: -618,768
 ---
 iDialogue from iLisa
 Hey! I just got a promotion! Or like a re-assignment?
-I’m working all the way up in the Brass Offices on a campaign called “After Now”.
+I’m working all the way up in the Brass Offices on some campaign called “After Now”.
 I don’t know much about it yet but it sounds like a lot of work.
 Mind if I bounce some ideas off you from time to time?
 ->I don’t mind at all
-    Thanks (name)! You’re the best intern in this whole office.
+    Thanks {$username}! You’re the best intern in this whole office.
 ->Actually I do mind.
-    Haha (name)! You’re a spicy intern!
-<<jump iDialogue_iStan15_2>>
+    Haha {$username}! You’re a spicy intern!
+<<DialogueTrigger iDialogue iDialogue_iStan15_2>>
 ===
 title: iDialogue_iStan15_2
 tags: 
 colorID: 0
-position: -386,841
+position: -387,840
 ---
 iDialogue from iStan15
 Ah the HQ. Best place in the world!
 My favorite floor is Intern Purgatory but some of my fondest memories were at the DiY Giftshop in the glass offices.
 What’s your favorite?
--> the intern stan cloning facility
-    Oh! That’s a very quaint thing to say. See you later!
-<<jump iDialogue_iStan14_2>>
+<<YarnCommand Canvas2 Activate_Input>>
+What’s your favorite?
+<<Wait 1>>
+Oh!{$favoriteplace}? That’s a very quaint thing to say. See you later!
+Oh!{$favoriteplace}? That’s a very quaint thing to say. See you later!
+<<DialogueTrigger iDialogue iDialogue_iStan14_2>>
 ===
 title: iDialogue_iStan14_2
 tags: 
@@ -277,14 +274,14 @@ You can’t trust what that app or map tells you.
 Most of the TGM is hidden.
 You only see what the higherups want you to see!
 ===
-title: DeadBeige
+title: StephenWrobbs
 tags: 
 colorID: 0
 position: 1320,207
 ---
 What was that?!
 You definitely weren’t supposed to see that.
-I asked you to stop reading.
+I'm asking you to stop reading.
 That IP was stolen from a high-up exec.
 You’ve been exposed to compromised IP.
 If your supervisors find out, there could be consequences.
@@ -292,7 +289,7 @@ Look, I don’t want you to get in trouble.
 It’s not your fault the onboarding process is so wonky right now.
 I’m going to figure out what’s going on.
 But please don’t read any more material until I do. 
-<<jump iDialogue_iLisa_3>>
+<<DialogueTrigger iDialogue iDialogue_iLisa_3>>
 ===
 title: iDialogue_iLisa_3
 tags: 
@@ -304,7 +301,7 @@ Rumour has it you got your hands on some compromised IP?
 Wow, you really know how to have a first day at work!
 How did you get it? You should probably keep it to yourself.
 I’ll do my best to stop the spread of gossip about you.
-<<jump iDialogue_iStan14_3>>
+<<DialogueTrigger iDialogue iDialogue_iStan14_3>>
 ===
 title: iDialogue_iStan14_3
 tags: 
@@ -315,24 +312,27 @@ iDialogue from iStan14
 I heard you are in possession of some compromised IP belonging to a C-Level Executive.
 Would you share it with me?
 I can protect you.
-<<jump iDialogue_iStan15_3>>
+I know a lot of Intern Stans are looking for what you might have.
+<<DialogueTrigger iDialogue iDialogue_iStan15_3>>
 ===
 title: iDialogue_iStan15_3
 tags: 
 colorID: 0
-position: -384,1047
+position: -385,1046
 ---
 iDialogue from iStan15
-Whatever that IP said about Beige Cathy is probably just a doctored, fake piece of intellectual property.
-Beige Cathy is probably the purest person I’ve ever had the privilege to work under.
-You wouldn’t want to get on her bad side though.
-She's a C-Level Executive. Basically a god around these parts, buddy.
-The best thing to do is probably give it back and pretend you didn’t see anything!
+Whatever you learned about “Stephen Wrobbs”
+is probably just a doctored, fake piece of intellectual property.
+I don’t think Stephen Wrobbs even exists!.
+You wouldn’t want to get on his bad side though,
+so the best thing to do is probably give it back
+and pretend you didn’t see anything!
+<<DialogueTrigger iDialogue Conclusion>>
 ===
 title: Conclusion
 tags: 
 colorID: 0
-position: 1557,206
+position: 1556,205
 ---
 Hi. I’m Kyle.
 I work just a couple of floors directly up from here.
@@ -343,7 +343,7 @@ Are you excited to be working for Tough Guy Mountain?
  Of course. Tough Guy Mountain is a… very special place.
 Look, I’ve got to make it to my 12 o’clock,  Intern Lisa should be with you shortly.
 Don’t let this place swallow you up.
-<<jump iDialogue_iLisa_4>>
+<<DialogueTrigger iDialogue iDialogue_iLisa_4>>
 ===
 title: iDialogue_iLisa_4
 tags: 
@@ -360,4 +360,26 @@ just promise me you’ll be careful, okay?
 Help me out on this After Now campaign and we’ll call it even.
 Well I’ve got to get back to work.
 Good luck Intern! Don’t let this place swallow you up!
+===
+title: KyleHandsomeHands
+tags: 
+colorID: 0
+position: 1170,507
+---
+Hey check THIS out!
+<<YarnCommand Kyle Dance>>
+Ok bye!
+<<YarnCommand Kyle Fuck>>
+===
+title: Page1A
+tags: 
+colorID: 0
+position: 392,428
+---
+Look, I’ve got to make it to my 12 o’clock, but could you do me a favor.
+If you see a picture of me, in the corner of  this onboarding manual, look at it through your peripatetic.
+I’m sure to have some helpful hints and company secrets!
+Good luck, Mr. Phone should be with you any minute.
+Don’t let this place swallow you up.
+<<YarnCommand HoloKyle Outro>>
 ===

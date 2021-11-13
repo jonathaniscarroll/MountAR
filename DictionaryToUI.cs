@@ -35,6 +35,7 @@ public class DictionaryToUI : MonoBehaviour
 		}
 		DictionaryToUI newPost = null;
 		foreach(DictionaryToUI post in ExistingUI){
+			Debug.Log("existing " + post.ThisElementData[CompareKey] + " input" + input[CompareKey]);
 			if(post.ThisElementData[CompareKey]==input[CompareKey]){
 				newPost = post;
 			}

@@ -9,7 +9,7 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
   sourceScripts:
-  - {fileID: 6391573757903218779, guid: 027d49282c3704f19930cad48e99fa85, type: 3}
+  - {fileID: 6391573757903218779, guid: 7de62f1c9dc649c46828aff3d79a9566, type: 3}
   compileError: 
   serializedDeclarations:
   - name: $questions
@@ -21,6 +21,20 @@ ScriptedImporter:
     sourceYarnAsset: {instanceID: 0}
   - name: $cubicle
     type: 1
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    sourceYarnAsset: {instanceID: 0}
+  - name: $favoriteplace
+    type: 2
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    sourceYarnAsset: {instanceID: 0}
+  - name: $username
+    type: 2
     defaultValueBool: 0
     defaultValueNumber: 0
     defaultValueString: 

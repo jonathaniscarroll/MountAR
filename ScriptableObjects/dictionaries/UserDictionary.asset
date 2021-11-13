@@ -43,6 +43,11 @@ MonoBehaviour:
       UseConstant: 0
       ConstantValue: 
       Variable: {fileID: 11400000, guid: a72d2b03899f44ee49899869d8f76270, type: 2}
+  - Name: BackHair
+    StringReference:
+      UseConstant: 0
+      ConstantValue: 
+      Variable: {fileID: 11400000, guid: febdfa2bce44b4e2a810a06d3a08438e, type: 2}
   DictionaryEvent:
     m_PersistentCalls:
       m_Calls:
