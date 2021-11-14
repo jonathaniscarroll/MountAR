@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05282ef0d83a4d39a4d7b83ab0fe030, type: 3}
+  m_Name: State-GoToWork
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 6c9ccddae6b4c44ddac37f123adf0be4, type: 2}
+  transitions:
+  - name: Am I at work?
+    decision: {fileID: 11400000, guid: 4242469eca3d54c14bb0142ca884014d, type: 2}
+    trueState: {fileID: 11400000, guid: 17ef49fe58805418799396ac20da1590, type: 2}
+    falseState: {fileID: 11400000, guid: 6b22e62f81aa2454498ab457c4b9dee7, type: 2}
+  sceneGizmoColor: {r: 1, g: 0, b: 0.8646321, a: 1}
+  RepeatAction: 0
