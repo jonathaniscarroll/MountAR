@@ -257,6 +257,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &3218454261491264624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 449151733625369320}
+  m_Layer: 0
+  m_Name: KyleTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &449151733625369320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3218454261491264624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.714, y: 0, z: 0.068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7171799296027222186}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4390214613652953078
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,6 +470,30 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 4d17f6618b67a4f8e904626c6503643c, type: 2}
+          m_TargetAssemblyTypeName: TransformGameEvent, Assembly-CSharp
+          m_MethodName: Raise
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 7171799296027222186}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: fb82bced18ee747d7a6866cc1bda33ba, type: 2}
+          m_TargetAssemblyTypeName: TransformGameEvent, Assembly-CSharp
+          m_MethodName: Raise
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 7171799296027222186}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     PositionEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -590,6 +644,7 @@ Transform:
   - {fileID: 4371595259169108472}
   - {fileID: 2592825070817694900}
   - {fileID: 8266191973559122693}
+  - {fileID: 449151733625369320}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -668,7 +723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d33504058b224cf59781dd6d012ff9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _output: {fileID: 7171799296027222187}
+  _output: {fileID: 3218454261491264624}
   OutputTransform:
     m_PersistentCalls:
       m_Calls:
