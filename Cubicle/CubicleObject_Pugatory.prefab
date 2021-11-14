@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3361534330991649332, guid: fff89adb644334141899c499ef08ddcc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7171799296027222186, guid: fff89adb644334141899c499ef08ddcc,
         type: 3}
       propertyPath: m_RootOrder
@@ -65,7 +70,7 @@ PrefabInstance:
     - target: {fileID: 7171799296027222187, guid: fff89adb644334141899c499ef08ddcc,
         type: 3}
       propertyPath: m_Name
-      value: CubicleObject
+      value: CubicleObject_Pugatory
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff89adb644334141899c499ef08ddcc, type: 3}

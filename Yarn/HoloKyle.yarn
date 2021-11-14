@@ -3,9 +3,11 @@ tags:
 colorID: 0
 position: 401,210
 ---
-Hi. I’m Kyle. I work just a couple of floors directly up from here. I just thought I’d check in on you and make sure your first day is going ok. Are you excited to be working for Tough Guy Mountain?
+Hi. I’m Kyle. I work just a couple of floors directly up from here. 
+I just thought I’d check in on you and make sure your first day is going ok. 
+Are you excited to be working for Tough Guy Mountain?
 ->Yes
-    Of course. Tough Guy Mountain is a very special place!
+    Of course. Tough Guy Mountain is a very special place!What should I call you?
 ->No
     Of course. Tough Guy Mountain is... a very special place. What should I call you?
 <<YarnCommand HoloKyle NameEntry>>
@@ -22,7 +24,7 @@ In fact, what are you doing outside the building? Why are you in a Cococo?
 title: page21questions
 tags: 
 colorID: 0
-position: 625,423
+position: 623,421
 ---
 <<if $questions is false>>
 <<set $questions to true>>
@@ -34,8 +36,11 @@ Any other questions you have for me?
     You’re in the Brandscape. Brandzone 1a to be specific.
     <<jump page21questions>>
 ->What is this building?
+    This is the TGM Corporate HQ. You can access the lobby through the door ahead of you.
     <<jump page21questions>>
 ->What’s a Cococo?
+    It stands for Collective Consciousness Co-Habitation. 
+    It means there might be someone inside this body with you.
     <<jump page21questions>>
 ->I don’t have any questions. I’d like to go inside.
     <<DialogueTrigger iDialogue iDialogue_iLisa_1>>
@@ -229,7 +234,8 @@ tags:
 colorID: 0
 position: 1093,211
 ---
-Intern Purgatory can actually be a nice place to hang out with your intern friends. That is, if your cubicles ever happen to cross paths.
+Intern Purgatory can actually be a nice place to hang out with your intern friends. 
+That is, if your cubicles ever happen to cross paths.
 <<DialogueTrigger iDialogue iDialogue_iLisa_2>>
 ===
 title: iDialogue_iLisa_2

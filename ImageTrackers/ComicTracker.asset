@@ -85,3 +85,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: AR_p_46
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4778545531261921751
+      m_GuidHigh: 4071794093812816303
+    m_SerializedTextureGuid:
+      m_GuidLow: 3793776503123965963
+      m_GuidHigh: 17889620260594851339
+    m_Size: {x: 1, y: 1.6}
+    m_SpecifySize: 1
+    m_Name: AR_p_81
+    m_Texture: {fileID: 0}

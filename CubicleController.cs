@@ -23,6 +23,7 @@ public class CubicleController : MonoBehaviour
 		}
 		set{
 			cubicleObjects = value;
+			if(Cubicle!=null)
 			Cubicle.CubicleObjects = value;
 		}
 	}
@@ -32,15 +33,20 @@ public class CubicleController : MonoBehaviour
 	public GameObjectEvent OutputWorkObjectEvent;
 	
 	public void Initilize(){
+		if(CubicleObjects==null || CubicleObjects.Count ==0){
+			GetCubicleObjects();
+		}
 		Cubicle = ScriptableObject.CreateInstance<Cubicle>();
 		Cubicle.CubicleObjects = CubicleObjects;
 		OutputCubicle.Invoke(Cubicle);
 	}
 	
 	public void OutputWorkObject(){
-		
 		GameObject output = Cubicle.CubicleObjects.OrderByDescending(i => i.Work).FirstOrDefault().gameObject;
 		Debug.Log("wokr object",output);
 		OutputWorkObjectEvent.Invoke(output);
+	}
+	public void GetCubicleObjects(){
+		CubicleObjects = new List<CubicleObject>(GetComponentsInChildren<CubicleObject>());
 	}
 }

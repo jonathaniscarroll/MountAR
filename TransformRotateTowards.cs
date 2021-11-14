@@ -17,7 +17,7 @@ public class TransformRotateTowards : MonoBehaviour
 	}
 	[SerializeField]
 	private Transform _targetToRotateToward;
-	public float Speed;
+	public float Speed = 1;
 	
 	public void RotateTowards(){
 		if(TargetToRotate!=null&&TargetToRotateToward!=null)
