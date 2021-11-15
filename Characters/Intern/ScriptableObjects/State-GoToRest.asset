@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a05282ef0d83a4d39a4d7b83ab0fe030, type: 3}
-  m_Name: State-Rest
+  m_Name: State-GoToRest
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 11400000, guid: ab3185deffcb8404c8b1d6264f58b856, type: 2}
+  - {fileID: 11400000, guid: 2c6e211e57af9472c8633dac68980e39, type: 2}
   transitions:
-  - name: Am I at a rest Station?
+  - name: Am I at rest?
     decision: {fileID: 11400000, guid: 4242469eca3d54c14bb0142ca884014d, type: 2}
-    trueState: {fileID: 11400000, guid: 6b22e62f81aa2454498ab457c4b9dee7, type: 2}
-    falseState: {fileID: 11400000, guid: 6eca149565f8f41aa88ee1325683c3c3, type: 2}
-  sceneGizmoColor: {r: 0.030668259, g: 0, b: 1, a: 1}
+    trueState: {fileID: 11400000, guid: 8bcb39eb6531148cf9cb4899e1f938ed, type: 2}
+    falseState: {fileID: 11400000, guid: 6b22e62f81aa2454498ab457c4b9dee7, type: 2}
+  sceneGizmoColor: {r: 0.98765564, g: 1, b: 0, a: 1}
   RepeatAction: 0

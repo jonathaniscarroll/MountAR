@@ -64,7 +64,7 @@ MonoBehaviour:
     m_Size: {x: 1, y: 1.65}
     m_SpecifySize: 1
     m_Name: AR_p_110
-    m_Texture: {fileID: 0}
+    m_Texture: {fileID: 2800000, guid: e057f1e20cd124c66b7c9025ff8bc362, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5252557543617780830
       m_GuidHigh: 1144881049396019355

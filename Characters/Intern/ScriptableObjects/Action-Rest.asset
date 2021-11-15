@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bb1f770c6d6f44a189aee65e7777319, type: 3}
-  m_Name: Decision-AtWorkStation
+  m_Script: {fileID: 11500000, guid: 362b62a1a6a8e4bc4be3dbdf78dff30a, type: 3}
+  m_Name: Action-Rest
   m_EditorClassIdentifier: 
-  minimumDistance: 0.1
+  nameOfEvent: Rest

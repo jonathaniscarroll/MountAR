@@ -31,6 +31,7 @@ public class CubicleController : MonoBehaviour
 	private List<CubicleObject> cubicleObjects;
 	public CubicleEvent OutputCubicle;
 	public GameObjectEvent OutputWorkObjectEvent;
+	public GameObjectEvent OutputRestObjectEvent;
 	
 	public void Initilize(){
 		if(CubicleObjects==null || CubicleObjects.Count ==0){
@@ -43,8 +44,13 @@ public class CubicleController : MonoBehaviour
 	
 	public void OutputWorkObject(){
 		GameObject output = Cubicle.CubicleObjects.OrderByDescending(i => i.Work).FirstOrDefault().gameObject;
-		Debug.Log("wokr object",output);
+		//Debug.Log("wokr object",output);
 		OutputWorkObjectEvent.Invoke(output);
+	}
+	public void OutputRestObject(){
+		GameObject output = Cubicle.CubicleObjects.OrderByDescending(i => i.Rest).FirstOrDefault().gameObject;
+		//Debug.Log("wokr object",output);
+		OutputRestObjectEvent.Invoke(output);
 	}
 	public void GetCubicleObjects(){
 		CubicleObjects = new List<CubicleObject>(GetComponentsInChildren<CubicleObject>());

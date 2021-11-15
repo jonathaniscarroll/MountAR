@@ -7,9 +7,10 @@ Hi. I’m Kyle. I work just a couple of floors directly up from here.
 I just thought I’d check in on you and make sure your first day is going ok. 
 Are you excited to be working for Tough Guy Mountain?
 ->Yes
-    Of course. Tough Guy Mountain is a very special place!What should I call you?
+    Of course. Tough Guy Mountain is a very special place!
 ->No
-    Of course. Tough Guy Mountain is... a very special place. What should I call you?
+    Of course. Tough Guy Mountain is... a very special place. 
+What should I call you?
 <<YarnCommand HoloKyle NameEntry>>
 ===
 title: Page21
@@ -44,6 +45,7 @@ Any other questions you have for me?
     <<jump page21questions>>
 ->I don’t have any questions. I’d like to go inside.
     <<DialogueTrigger iDialogue iDialogue_iLisa_1>>
+    <<YarnCommand HoloKyle Outro>>
 ===
 title: Cubicle-intro
 tags: 
@@ -349,6 +351,7 @@ Are you excited to be working for Tough Guy Mountain?
  Of course. Tough Guy Mountain is a… very special place.
 Look, I’ve got to make it to my 12 o’clock,  Intern Lisa should be with you shortly.
 Don’t let this place swallow you up.
+<<YarnCommand HoloKyle Outro>>
 <<DialogueTrigger iDialogue iDialogue_iLisa_4>>
 ===
 title: iDialogue_iLisa_4
@@ -382,10 +385,27 @@ tags:
 colorID: 0
 position: 392,428
 ---
+That's great, {$username}
 Look, I’ve got to make it to my 12 o’clock, but could you do me a favor.
 If you see a picture of me, in the corner of  this onboarding manual, look at it through your peripatetic.
 I’m sure to have some helpful hints and company secrets!
-Good luck, Mr. Phone should be with you any minute.
+Good luck! Mr. Phone should be with you any minute.
 Don’t let this place swallow you up.
+<<YarnCommand HoloKyle Outro>>
+===
+title: SphereInterfaceActivation
+tags: 
+colorID: 0
+position: 392,428
+---
+Hi. I’m Kyle. I work just a couple of floors directly up from here. 
+I just thought I’d check in on you and make sure your first day is going ok. 
+Are you excited to be working for Tough Guy Mountain?
+->Yes
+    Of course. Tough Guy Mountain is a very special place!
+->No
+    Of course. Tough Guy Mountain is... a very special place.
+If you have the comic already, I'll meet you in it's pages. 
+Otherwise, head to escapefrominternpurgatory.com to test out the AR!
 <<YarnCommand HoloKyle Outro>>
 ===
