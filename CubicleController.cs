@@ -30,8 +30,8 @@ public class CubicleController : MonoBehaviour
 	[SerializeField]
 	private List<CubicleObject> cubicleObjects;
 	public CubicleEvent OutputCubicle;
-	public GameObjectEvent OutputWorkObjectEvent;
-	public GameObjectEvent OutputRestObjectEvent;
+	public TransformEvent OutputWorkObjectEvent;
+	public TransformEvent OutputRestObjectEvent;
 	
 	public void Initilize(){
 		if(CubicleObjects==null || CubicleObjects.Count ==0){
@@ -43,12 +43,12 @@ public class CubicleController : MonoBehaviour
 	}
 	
 	public void OutputWorkObject(){
-		GameObject output = Cubicle.CubicleObjects.OrderByDescending(i => i.Work).FirstOrDefault().gameObject;
+		Transform output = Cubicle.CubicleObjects.OrderByDescending(i => i.Work).FirstOrDefault().WorkPosition;
 		//Debug.Log("wokr object",output);
 		OutputWorkObjectEvent.Invoke(output);
 	}
 	public void OutputRestObject(){
-		GameObject output = Cubicle.CubicleObjects.OrderByDescending(i => i.Rest).FirstOrDefault().gameObject;
+		Transform output = Cubicle.CubicleObjects.OrderByDescending(i => i.Rest).FirstOrDefault().RestPosition;
 		//Debug.Log("wokr object",output);
 		OutputRestObjectEvent.Invoke(output);
 	}

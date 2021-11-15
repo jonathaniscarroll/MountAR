@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 306f23259a2364f4893d8512880fb842
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
+  sourceScripts:
+  - {fileID: 6391573757903218779, guid: 1073bd9ad955f4de0a047bef652744c6, type: 3}
+  compileError: 
+  serializedDeclarations:
+  - name: $brandelement1
+    type: 2
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: brand
+    description: 
+    sourceYarnAsset: {instanceID: 0}

@@ -1,0 +1,69 @@
+fileFormatVersion: 2
+guid: 1073bd9ad955f4de0a047bef652744c6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-CA
+  stringIDs:
+  - line:MountPosts-1-Mount1-0
+  - line:MountPosts-1-Mount2-1
+  - line:MountPosts-1-Mount3-2
+  - line:MountPosts-1-Mount4-3
+  - line:MountPosts-1-Mount5-4
+  - line:MountPosts-1-Mount6-5
+  - line:MountPosts-1-Mount7-6
+  - line:MountPosts-1-Mount7-7
+  - line:MountPosts-1-Mount8-8
+  - line:MountPosts-1-Mount8-9
+  - line:MountPosts-1-Mount8-10
+  - line:MountPosts-1-Mount8-11
+  - line:MountPosts-1-Mount9-12
+  - line:MountPosts-1-Mount9-13
+  - line:MountPosts-1-Mount10-14
+  - line:MountPosts-1-Mount10-15
+  - line:MountPosts-1-Mount10-16
+  - line:MountPosts-1-Mount10-17
+  - line:MountPosts-1-Mount10-18
+  - line:MountPosts-1-Mount10-19
+  - line:MountPosts-1-Mount11-20
+  - line:MountPosts-1-Mount11-21
+  - line:MountPosts-1-Mount12-22
+  - line:MountPosts-1-Mount13-23
+  - line:MountPosts-1-Mount14-24
+  - line:MountPosts-1-Mount14-25
+  - line:MountPosts-1-Mount15-26
+  - line:MountPosts-1-Mount15-27
+  - line:MountPosts-1-Mount16-28
+  - line:MountPosts-1-Mount17-29
+  - line:MountPosts-1-Mount18-30
+  - line:MountPosts-1-Mount18-31
+  - line:MountPosts-1-Mount19-32
+  - line:MountPosts-1-Mount20-33
+  - line:MountPosts-1-Mount21-34
+  - line:MountPosts-1-Mount22-35
+  - line:MountPosts-1-Mount23-36
+  - line:MountPosts-1-Mount24-37
+  - line:MountPosts-1-Mount25-38
+  - line:MountPosts-1-Mount26-39
+  - line:MountPosts-1-Mount27-40
+  - line:MountPosts-1-Mount28-41
+  - line:MountPosts-1-Mount29-42
+  - line:MountPosts-1-Mount30-43
+  - line:MountPosts-1-Mount31-44
+  - line:MountPosts-1-Mount32-45
+  - line:MountPosts-1-Mount33-46
+  - line:MountPosts-1-Mount34-47
+  - line:MountPosts-1-Mount35-48
+  - line:MountPosts-1-Mount36-49
+  - line:MountPosts-1-Mount37-50
+  AnyImplicitStringIDs: 1
+  isSuccesfullyParsed: 1
+  parseErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
+  localizationDatabase: {instanceID: 0}
