@@ -30,8 +30,9 @@ public class CubicleController : MonoBehaviour
 	[SerializeField]
 	private List<CubicleObject> cubicleObjects;
 	public CubicleEvent OutputCubicle;
-	public TransformEvent OutputWorkObjectEvent;
-	public TransformEvent OutputRestObjectEvent;
+	//public TransformEvent OutputWorkObjectEvent;
+	//public TransformEvent OutputRestObjectEvent;
+	public TransformEvent OutputInteractionObject;
 	
 	public void Initilize(){
 		if(CubicleObjects==null || CubicleObjects.Count ==0){
@@ -43,14 +44,19 @@ public class CubicleController : MonoBehaviour
 	}
 	
 	public void OutputWorkObject(){
-		Transform output = Cubicle.CubicleObjects.OrderByDescending(i => i.Work).FirstOrDefault().WorkPosition;
-		//Debug.Log("wokr object",output);
-		OutputWorkObjectEvent.Invoke(output);
+		Transform output = Cubicle.CubicleObjects.OrderByDescending(i => i.Work).FirstOrDefault().InteractionPoint;
+		Debug.Log("wokr object",output);
+		OutputInteractionObject.Invoke(output);
 	}
 	public void OutputRestObject(){
-		Transform output = Cubicle.CubicleObjects.OrderByDescending(i => i.Rest).FirstOrDefault().RestPosition;
+		Transform output = Cubicle.CubicleObjects.OrderByDescending(i => i.Rest).FirstOrDefault().InteractionPoint;
 		//Debug.Log("wokr object",output);
-		OutputRestObjectEvent.Invoke(output);
+		OutputInteractionObject.Invoke(output);
+	}
+	public void OutputRandomObject(){
+		Transform output = Cubicle.CubicleObjects[Random.Range(0,Cubicle.CubicleObjects.Count)].InteractionPoint;
+		OutputInteractionObject.Invoke(output);
+		
 	}
 	public void GetCubicleObjects(){
 		CubicleObjects = new List<CubicleObject>(GetComponentsInChildren<CubicleObject>());

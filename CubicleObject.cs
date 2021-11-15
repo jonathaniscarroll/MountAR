@@ -25,7 +25,8 @@ public class CubicleObject : MonoBehaviour
 	}
 	[SerializeField]
 	private int work;
-	public Transform WorkPosition;
-	public Transform RestPosition;
+	//public Transform WorkPosition;
+	//public Transform RestPosition;
+	public Transform InteractionPoint;
 	
 }
