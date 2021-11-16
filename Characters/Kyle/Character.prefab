@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7754267868240405143}
   - component: {fileID: 472486577726753025}
   - component: {fileID: 870875038757951092}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: armL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5945045500923155708}
   - component: {fileID: 5945045500923155711}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Leg-R@2x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -453936735
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 585bc479eb1e64b929b8121cf2646cc3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -204,7 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5945045500984492886}
   - component: {fileID: 5945045500984492881}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Body@2x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -453936735
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2669b0ca909ae41578d9798d615f7fa5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -288,7 +288,7 @@ GameObject:
   - component: {fileID: 2412267093501672171}
   - component: {fileID: 2766531295123431025}
   - component: {fileID: 5773572216683438365}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -397,7 +397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5945045501251558959}
   - component: {fileID: 5945045501251558958}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Hand-R@2x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -456,7 +456,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -453936735
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fda7973562b224f66af11c0bca4fb018, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -479,7 +479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5945045501287945473}
   - component: {fileID: 1019956306}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 2517704262510278897}
   - component: {fileID: 6601876725921046870}
   - component: {fileID: 5535837919665613018}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: elbowL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 7462469933750679688}
   - component: {fileID: 4775593764415136677}
   - component: {fileID: 1790645280033727566}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -764,7 +764,7 @@ GameObject:
   - component: {fileID: 5827901387441925620}
   - component: {fileID: 7315945369907714399}
   - component: {fileID: 4566362660196660343}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: armR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -872,7 +872,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5945045501666799309}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: handL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -902,7 +902,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5945045501705485854}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: handR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -935,7 +935,7 @@ GameObject:
   - component: {fileID: 3637797273038722812}
   - component: {fileID: 9103182998644320204}
   - component: {fileID: 996746511171038363}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: kneeR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1046,7 +1046,7 @@ GameObject:
   - component: {fileID: 1471765788793368134}
   - component: {fileID: 5927951649439387747}
   - component: {fileID: 7206142204611163455}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: legR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1154,7 +1154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5945045502036457521}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: footL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1185,7 +1185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5945045502105301277}
   - component: {fileID: 5945045502105301276}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Hand-L@2x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1244,7 +1244,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -453936735
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5ead48c0bf0604ca9a391a20ce2f9453, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1268,7 +1268,7 @@ GameObject:
   - component: {fileID: 5945045502123490455}
   - component: {fileID: 2137600487063398721}
   - component: {fileID: 9055063821699067246}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: HIP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1383,7 +1383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5945045502327472835}
   - component: {fileID: 5945045502327472834}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Foot-R@2x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1442,7 +1442,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -453936735
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2a299522bdbbf417ba52560e3a152a35, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1467,7 +1467,7 @@ GameObject:
   - component: {fileID: 744229132622033351}
   - component: {fileID: 3579719167742455635}
   - component: {fileID: 5102496113225729273}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: elbowR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1576,7 +1576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5945045502647886896}
   - component: {fileID: 5945045502647886899}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Leg-L@2x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1635,7 +1635,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -453936735
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0135eec72c1084a42bd57082a340ec27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1658,7 +1658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5945045502685101442}
   - component: {fileID: 5945045502685101469}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Arm-R@2x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1717,7 +1717,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -453936735
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6a4d9903ef5844a4281d0aa28ae3afac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1742,7 +1742,7 @@ GameObject:
   - component: {fileID: 4797183685105831401}
   - component: {fileID: 1387619991433872820}
   - component: {fileID: 1892930939231763212}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: kneeL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1850,7 +1850,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5945045502715769374}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: footR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1881,7 +1881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5945045502721730778}
   - component: {fileID: 5945045502721730773}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Arm-L@2x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1941,7 +1941,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -453936735
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 33474a5d5efae45c8a844aacd09b667f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1964,7 +1964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5945045502764619893}
   - component: {fileID: 5945045502764619892}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Foot-L@2x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2023,7 +2023,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -453936735
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d0e479ed4abe8421ea1640e883b5efde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2048,7 +2048,7 @@ GameObject:
   - component: {fileID: 1725798541685452308}
   - component: {fileID: 7188010129583610038}
   - component: {fileID: 208858472786075946}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: legL
   m_TagString: Untagged
   m_Icon: {fileID: 0}

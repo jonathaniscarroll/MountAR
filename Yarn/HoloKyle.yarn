@@ -1,3 +1,10 @@
+title: istan
+tags: 
+colorID: 0
+position: 532,857
+---
+<<DialogueTrigger iDialogue iDialogue_iStan15_1>>
+===
 title: Page1
 tags: 
 colorID: 0
@@ -142,7 +149,6 @@ tags:
 colorID: 0
 position: -387,636
 ---
-iDialogue from iStan15
 Welcome to intern purgatory!
 My name is intern...
 Intern Stan!
@@ -156,7 +162,6 @@ tags:
 colorID: 0
 position: -131,639
 ---
-iDialogue from iStan14
 Hello. My name is Intern Stan.
 There’s a lot more to this place than meets the eye, and none of it is good.
 Don’t trust anyone who is messaging you.
@@ -168,7 +173,6 @@ tags:
 colorID: 0
 position: 87,642
 ---
-iDialogue from iCeo
 It was a pleasure to meet you earlier, {$username}
 I hope you don’t mind if we exchange correspondences from time to time?
 ->Yes
@@ -197,7 +201,6 @@ tags:
 colorID: 0
 position: 96,824
 ---
-iDialogue from iCeo
 If you enjoyed that, wait until you see what I’ve got for you next!
 ->Who are you?
     I'm just a humble intern,
@@ -214,7 +217,6 @@ tags:
 colorID: 0
 position: -619,598
 ---
-iDialogue from iLisa
 Hi! I’m Lisa. Is it your first day too?
 ->No
     Oh come on, I know a fresh intern when I see one ;)
@@ -245,7 +247,6 @@ tags:
 colorID: 0
 position: -618,768
 ---
-iDialogue from iLisa
 Hey! I just got a promotion! Or like a re-assignment?
 I’m working all the way up in the Brass Offices on some campaign called “After Now”.
 I don’t know much about it yet but it sounds like a lot of work.
@@ -261,15 +262,18 @@ tags:
 colorID: 0
 position: -387,840
 ---
-iDialogue from iStan15
 Ah the HQ. Best place in the world!
 My favorite floor is Intern Purgatory but some of my fondest memories were at the DiY Giftshop in the glass offices.
 What’s your favorite?
-<<YarnCommand Canvas2 Activate_Input>>
-What’s your favorite?
-<<Wait 1>>
-Oh!{$favoriteplace}? That’s a very quaint thing to say. See you later!
-Oh!{$favoriteplace}? That’s a very quaint thing to say. See you later!
+<<YarnCommand iDialogue FavoritePlace>>
+===
+title: iDialogue_iStan15_2a
+tags: 
+colorID: 0
+position: -387,840
+---
+<<wait 0.5>>
+Oh! {$favoriteplace}? That’s a very quaint thing to say. See you later!
 <<DialogueTrigger iDialogue iDialogue_iStan14_2>>
 ===
 title: iDialogue_iStan14_2
@@ -277,7 +281,6 @@ tags:
 colorID: 0
 position: -133,826
 ---
-iDialogue from iStan14
 You can’t trust what that app or map tells you.
 Most of the TGM is hidden.
 You only see what the higherups want you to see!
@@ -304,7 +307,6 @@ tags:
 colorID: 0
 position: -615,973
 ---
-iDialogue from iLisa
 Rumour has it you got your hands on some compromised IP?
 Wow, you really know how to have a first day at work!
 How did you get it? You should probably keep it to yourself.
@@ -316,7 +318,6 @@ tags:
 colorID: 0
 position: -133,1028
 ---
-iDialogue from iStan14
 I heard you are in possession of some compromised IP belonging to a C-Level Executive.
 Would you share it with me?
 I can protect you.
@@ -328,7 +329,6 @@ tags:
 colorID: 0
 position: -385,1046
 ---
-iDialogue from iStan15
 Whatever you learned about “Stephen Wrobbs”
 is probably just a doctored, fake piece of intellectual property.
 I don’t think Stephen Wrobbs even exists!.
@@ -359,7 +359,6 @@ tags:
 colorID: 0
 position: -616,1183
 ---
-iDialogue from iLisa
 Hey.
 I got word that Holographic Kyle was going to report you to the higher-ups because your onboarding process went wonky.
 I didn’t want to see anything bad happen to you so… I reset his program.
