@@ -1159,7 +1159,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.6
+  orthographic size: 1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1523,7 +1523,7 @@ MonoBehaviour:
     RequiredMouseButtons: 0
     RequiredSelectable: {fileID: 0}
   _camera: {fileID: 414931030}
-  zoom: 0.6
+  zoom: 1
   damping: -1
   clamp: 0
   clampMin: 10
@@ -1538,7 +1538,7 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967291
     Distance: 0
-  currentZoom: 0.6
+  currentZoom: 1
   remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!114 &641717316
 MonoBehaviour:
@@ -2327,9 +2327,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: e01ca55d65ea94905a6792a343623c61, type: 2}
-        m_TargetAssemblyTypeName: NamedStringReferenceList, Assembly-CSharp
-        m_MethodName: SaveToDictionary
+      - m_Target: {fileID: 11400000, guid: 41e3ff3a34c6f439bb81deb314d5192c, type: 2}
+        m_TargetAssemblyTypeName: StringDictionary, Assembly-CSharp
+        m_MethodName: OutputDictionary
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
