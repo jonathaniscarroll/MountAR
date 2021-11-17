@@ -3,7 +3,7 @@ namespace FirebaseREST
 {
     public class FirebaseSettings
     {
-        public const string DATABASE_URL = "https://reality-crossing-default-rtdb.firebaseio.com/";
-        public const string WEB_API = "AIzaSyCgbrFChJ7NIVt5fKHsaeel3H9M00AGbX8";
+        public const string DATABASE_URL = "https://mount-f2dfb-default-rtdb.firebaseio.com/";
+        public const string WEB_API = "AIzaSyCzLq3v8h7C8Wzcl_dpkdZvEwGsP519aeI";
     }
 }

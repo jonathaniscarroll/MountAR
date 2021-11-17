@@ -44,8 +44,11 @@ public class CubicleController : MonoBehaviour
 	}
 	
 	public void OutputWorkObject(){
+		if(Cubicle==null){
+			return;
+		}
 		Transform output = Cubicle.CubicleObjects.OrderByDescending(i => i.Work).FirstOrDefault().InteractionPoint;
-		Debug.Log("wokr object",output);
+		//Debug.Log("wokr object",output);
 		OutputInteractionObject.Invoke(output);
 	}
 	public void OutputRestObject(){

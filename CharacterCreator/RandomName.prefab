@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5702707240920433628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5702707240920433624}
+  - component: {fileID: 5702707240920433627}
+  - component: {fileID: 5702707240920433626}
+  - component: {fileID: 5702707240920433629}
+  - component: {fileID: 1976775963258518443}
+  m_Layer: 0
+  m_Name: RandomName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5702707240920433624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5702707240920433628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.32473, y: 2.5777636, z: 0.047351815}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5702707240920433627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5702707240920433628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a35d49b53360468f888f5f11b8eb07d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parseString: ','
+  OutputSeparatedStrings:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: b18a9af79113f464aac9a52c54329078, type: 2}
+        m_TargetAssemblyTypeName: StringListVar, Assembly-CSharp
+        m_MethodName: set_Value
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: b18a9af79113f464aac9a52c54329078, type: 2}
+        m_TargetAssemblyTypeName: StringListVar, Assembly-CSharp
+        m_MethodName: OutputRandom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5702707240920433626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5702707240920433628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaede1c77995448dcbd6fe0d280ccd83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEvents:
+  - trigger: 0
+    eventToTrigger:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5702707240920433629}
+          m_TargetAssemblyTypeName: OutputStringEvent, Assembly-CSharp
+          m_MethodName: OutputString
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Apple, Brand, Cash, Doom, Empress, Finland, Gas, Hop-Scotch,
+              Ikea, Jones, Kellogg, Litecoin, Money, Negative, O''Parent, Phone,
+              Quicktime, Ribbets, Switzerland, Thursday, Uline, Vault, Windbreaker,
+              Xerox, Youtube, Zellwegger America, Brandt, Camera, Djembe, Embargo,
+              Friday, Galaxy, Hallway, Indigo, Joystick, Keychain, Litecodec, Monday,
+              Netflix, Order, Popular, Quota, Repost, Starbucks, Tuesday, Uber, Visa,
+              Wump, Xanathar, Yelp, Zipcar Airport, Bluetooth, Computer, Doormat,
+              Esquire, Facebook, Google, Hootsuite, Instagram, Junior, Kimoji, Largesum,
+              Mutombo, Numbers, Orangina, Pixel, Quarter, Rogers, Silverback, Terminal,
+              Union, Vice, Wonderbar, X, Zendesk Alpha, Beta, Console, Dropbox, Elite,
+              Friendship, Hogshead, Icon, Keynote, Lifebrand, Macintosh, Origin,
+              Pepsi, Quash, Reprint, Sreej, Tumblr, Unit, Viagara, Wifi, Book, Chrome,
+              Desk, Estate, Facetime, Holiday, Identity, Lipstick, Mastercard, Original,
+              Penguin-Pants, Query, Reputation, Sex, Twitter, Unity, Video, Windows,
+              Books, Cottage, Hologram, Image, Lump, Messenger, Office, Positive,
+              Quickbooks, Rating, Synergy, Trello, Unitron, Viral, Wizard, Bell,
+              Condo, Hardware, Impact, Lounge, Media, Organic, Pinterest, Quire,
+              Realism, Stick, Tinder, Upside, Virus, Webinar, Benchmark, Credit,
+              Honcho, Integrity, Pocket, Qwerty, Realtor, Slack, Unicode, Vapor,
+              Bitcoin, Cohort, Hazard, Internet, Photos, Retail, Safari, Value, Bucket,
+              Content, Health, Industry, Pages, Robot, Soundcloud, Vital, Cruise,
+              Hybrid, Policy, Skype, Vortal, Harraway, Settings, Vulture, Stocks,
+              Vacation, Savage, Sook, '
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &5702707240920433629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5702707240920433628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5608ce3d8a1104796508de7e64d64b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StringReference:
+    UseConstant: 0
+    ConstantValue: 'Apple, Brand, Cash, Doom, Empress, Finland, Gas, Hop-Scotch,
+      Ikea, Jones, Kellogg, Litecoin, Money, Negative, O''Parent, Phone, Quicktime,
+      Ribbets, Switzerland, Thursday, Uline, Vault, Windbreaker, Xerox, Youtube,
+      Zellwegger America, Brandt, Camera, Djembe, Embargo, Friday, Galaxy, Hallway,
+      Indigo, Joystick, Keychain, Litecodec, Monday, Netflix, Order, Popular, Quota,
+      Repost, Starbucks, Tuesday, Uber, Visa, Wump, Xanathar, Yelp, Zipcar Airport,
+      Bluetooth, Computer, Doormat, Esquire, Facebook, Google, Hootsuite, Instagram,
+      Junior, Kimoji, Largesum, Mutombo, Numbers, Orangina, Pixel, Quarter, Rogers,
+      Silverback, Terminal, Union, Vice, Wonderbar, X, Zendesk Alpha, Beta, Console,
+      Dropbox, Elite, Friendship, Hogshead, Icon, Keynote, Lifebrand, Macintosh,
+      Origin, Pepsi, Quash, Reprint, Sreej, Tumblr, Unit, Viagara, Wifi, Book, Chrome,
+      Desk, Estate, Facetime, Holiday, Identity, Lipstick, Mastercard, Original,
+      Penguin-Pants, Query, Reputation, Sex, Twitter, Unity, Video, Windows, Books,
+      Cottage, Hologram, Image, Lump, Messenger, Office, Positive, Quickbooks, Rating,
+      Synergy, Trello, Unitron, Viral, Wizard, Bell, Condo, Hardware, Impact, Lounge,
+      Media, Organic, Pinterest, Quire, Realism, Stick, Tinder, Upside, Virus, Webinar,
+      Benchmark, Credit, Honcho, Integrity, Pocket, Qwerty, Realtor, Slack, Unicode,
+      Vapor, Bitcoin, Cohort, Hazard, Internet, Photos, Retail, Safari, Value, Bucket,
+      Content, Health, Industry, Pages, Robot, Soundcloud, Vital, Cruise, Hybrid,
+      Policy, Skype, Vortal, Harraway, Settings, Vulture, Stocks, Vacation, Savage,
+      Sook, '
+    Variable: {fileID: 11400000, guid: 2ce237bd65c264b9d9c5fb08bfa891bc, type: 2}
+  prepend: 
+  append: 
+  OutputEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5702707240920433627}
+        m_TargetAssemblyTypeName: SeparateString, Assembly-CSharp
+        m_MethodName: InputString
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1976775963258518443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5702707240920433628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c2bfa856f4746d8b1ac60539c70d3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: e2201201ce0594a3f84a1688a6de0d61, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: b18a9af79113f464aac9a52c54329078, type: 2}
+        m_TargetAssemblyTypeName: StringListVar, Assembly-CSharp
+        m_MethodName: OutputRandom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

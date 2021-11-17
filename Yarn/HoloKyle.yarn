@@ -405,6 +405,7 @@ Are you excited to be working for Tough Guy Mountain?
 ->No
     Of course. Tough Guy Mountain is... a very special place.
 If you have the comic already, I'll meet you in it's pages. 
-Otherwise, head to escapefrominternpurgatory.com to test out the AR!
-<<YarnCommand HoloKyle Outro>>
+Otherwise, head to escapefrominternpurgatory.com/img to test out the AR!
+Oh, by the way, What should I call you?
+<<YarnCommand HoloKyle NameEntry>>
 ===

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f984fdfd84645dfa710969c34ea4bd, type: 3}
+  m_Name: String-FirstNames
+  m_EditorClassIdentifier: 
+  _value: Agnes, Boy, Cathy, Doom, Esther, Fora, Greg, Hacker, Ivan, Joan, Kyle,
+    Lisa, Mars, Nancy, Opal, Phil, Queenie, Rodge, Stan, Tracey, Uther, Vance, Walter,
+    Xee Alice, Bertrand, Caillou, Dikembe, Emblem, Font, Gloom, Hamm, Igor, Jordan,
+    Kimberlee, Lance, Marv, Nathan, Orange, Punce, Quote, Raster, Steve, Tinamax,
+    Umpa, Valerie, Wednesday, Apple, Brandon, Catherine, Dork, Eldred, Flora, Gumbi,
+    Hat, Iluvatar, Jonny, Kimoji, Lu, Martin, Norb, Olga, Percy, Quiver, Ratchet,
+    Saylene, Tuesday, Unix, Via, Web, Adam, Beverage, Carl, Dirk, E-, Farmer, Gams,
+    Hammer, Inky, Junior, Kindred, Lag, Myrtle, Norbert, Olenna, Pamela, Quid, Rusty,
+    Stephen, Tim, Use, Veto, America, Bean, Cam, Damien, Egar, Forgo, Gorb, Hedley,
+    Ice, Jalen, Kinder, Laundry, Marge, Norma, Orb, Poopy, Reena, Sook, Tax, Video,
+    Adobe, Baby, Cookie, Delores, Emission, Forge, Gel, Horace, Ivanna, Jumbo, Koin,
+    List, Marp, Nerd, Obie, Viral, Boros, Coco, Dorota, Eric, Frodo, Hootsuite, Illiquid,
+    Murp, Norp, Oink, Void, Bogdan, Carbon, Erstwhile, Halo, Ivory, Mona, Nightingale,
+    Vector, Bambi, Curse, Halsey, Isaiah, Matt, Beverly, Cashew, Hamada, Monday,
+    Blog, Happy, Max, Beta, Hiccup, Mail, Benchmark, Broan, Boy,
+  InitialValue: 
+  UseInitialValue: 0
+  OnChange:
+    m_PersistentCalls:
+      m_Calls: []

@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 487131775601067878}
   - component: {fileID: 2236970006161726779}
   - component: {fileID: 3309253276040515642}
-  - component: {fileID: 7835105412222422370}
+  - component: {fileID: 864951771388949175}
   m_Layer: 0
   m_Name: Cubicle
   m_TagString: Untagged
@@ -434,32 +434,21 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 7835105412222422370}
-          m_TargetAssemblyTypeName: SpriteRenderOrder, Assembly-CSharp
-          m_MethodName: UpdateRenderers
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &7835105412222422370
+--- !u!114 &864951771388949175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487131775601067879}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21417ffb9dc7c4da3926e35b1a8b6d5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 8839340c3be6649d5a2b7d515270e5fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpriteRenderers: []
-  Modifier: -100
+  OutputData:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &487131775725829444
 GameObject:
   m_ObjectHideFlags: 0
