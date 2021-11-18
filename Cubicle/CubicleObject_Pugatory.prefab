@@ -72,5 +72,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubicleObject_Pugatory
       objectReference: {fileID: 0}
+    - target: {fileID: 8720405208826318750, guid: fff89adb644334141899c499ef08ddcc,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720405208826318750, guid: fff89adb644334141899c499ef08ddcc,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.87
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff89adb644334141899c499ef08ddcc, type: 3}

@@ -23,15 +23,15 @@ MonoBehaviour:
     Wonderbar, X, Zendesk Alpha, Beta, Console, Dropbox, Elite, Friendship, Hogshead,
     Icon, Keynote, Lifebrand, Macintosh, Origin, Pepsi, Quash, Reprint, Sreej, Tumblr,
     Unit, Viagara, Wifi, Book, Chrome, Desk, Estate, Facetime, Holiday, Identity,
-    Lipstick, Mastercard, Original, Penguin-Pants, Query, Reputation, Sex, Twitter,
-    Unity, Video, Windows, Books, Cottage, Hologram, Image, Lump, Messenger, Office,
-    Positive, Quickbooks, Rating, Synergy, Trello, Unitron, Viral, Wizard, Bell,
-    Condo, Hardware, Impact, Lounge, Media, Organic, Pinterest, Quire, Realism, Stick,
-    Tinder, Upside, Virus, Webinar, Benchmark, Credit, Honcho, Integrity, Pocket,
-    Qwerty, Realtor, Slack, Unicode, Vapor, Bitcoin, Cohort, Hazard, Internet, Photos,
-    Retail, Safari, Value, Bucket, Content, Health, Industry, Pages, Robot, Soundcloud,
-    Vital, Cruise, Hybrid, Policy, Skype, Vortal, Harraway, Settings, Vulture, Stocks,
-    Vacation, Savage, Sook, '
+    Lipstick, Mastercard, Original, Penguin-Pants, Query, Reputation, Twitter, Unity,
+    Video, Windows, Books, Cottage, Hologram, Image, Lump, Messenger, Office, Positive,
+    Quickbooks, Rating, Synergy, Trello, Unitron, Viral, Wizard, Bell, Condo, Hardware,
+    Impact, Lounge, Media, Organic, Pinterest, Quire, Realism, Stick, Tinder, Upside,
+    Virus, Webinar, Benchmark, Credit, Honcho, Integrity, Pocket, Qwerty, Realtor,
+    Slack, Unicode, Vapor, Bitcoin, Cohort, Hazard, Internet, Photos, Retail, Safari,
+    Value, Bucket, Content, Health, Industry, Pages, Robot, Soundcloud, Vital, Cruise,
+    Hybrid, Policy, Skype, Vortal, Harraway, Settings, Vulture, Stocks, Vacation,
+    Savage, Sook, '
   InitialValue: 
   UseInitialValue: 0
   OnChange:

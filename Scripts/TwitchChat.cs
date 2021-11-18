@@ -15,6 +15,8 @@ public class TwitchChat : MonoBehaviour {
 
 	public string username, password, channelName; //Get the password from https://twitchapps.com/tmi
 	public StringStringEvent OutputMessage;
+	public StringEvent OutputName;
+	public StringEvent OutputChat;
 
 	void Start () {
 		Connect();
@@ -61,6 +63,8 @@ public class TwitchChat : MonoBehaviour {
 				message = message.Substring(splitPoint + 1);
 				
 				OutputMessage.Invoke(chatName,message);
+				OutputName.Invoke(chatName);
+				OutputChat.Invoke(message);
 				//print(String.Format("{0}: {1}", chatName, message));
 				//chatBox.text = chatBox.text + "\n" + String.Format("{0}: {1}", chatName, message);
 

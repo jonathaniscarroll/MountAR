@@ -409,3 +409,13 @@ Otherwise, head to escapefrominternpurgatory.com/img to test out the AR!
 Oh, by the way, What should I call you?
 <<YarnCommand HoloKyle NameEntry>>
 ===
+title: Welcome
+tags: 
+colorID: 0
+position: 392,428
+---
+Welcome to the world of Tough Guy Mountain
+Please scan page three of your Intern Manual to get started.
+Or visit escapefrominternpurgatory.com/img to demo the AR triggers.
+OR select one of the icons on the sphere!
+===

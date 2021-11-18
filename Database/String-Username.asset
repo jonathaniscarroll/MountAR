@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40f984fdfd84645dfa710969c34ea4bd, type: 3}
   m_Name: String-Username
   m_EditorClassIdentifier: 
-  _value: -Mof6RgC9K9MYlWx3O5Q
+  _value: 
   InitialValue: 
-  UseInitialValue: 1
-  OnChange:
+  UseInitialValue: 0
+  onChange:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: d34b96d6dfc3c46d2b0c9e6f280045f3, type: 2}

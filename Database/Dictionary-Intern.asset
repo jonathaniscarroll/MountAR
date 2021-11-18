@@ -9,25 +9,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3be4effbcbb2e4035872913741bc71f8, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d83ceb19a9b447e99802277e5ccaf3f, type: 3}
   m_Name: Dictionary-Intern
   m_EditorClassIdentifier: 
-  NamedStringReferences:
-  - Name: internname
-    StringReference:
-      UseConstant: 0
-      ConstantValue: 
-      Variable: {fileID: 11400000, guid: 2e1bd2567802646a3990cdc3cf0f2e7d, type: 2}
   DictionaryEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 11400000, guid: ba2604cfe1db5403e8b32d78cc0e840c, type: 2}
+        m_TargetAssemblyTypeName: StringDictionaryGameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

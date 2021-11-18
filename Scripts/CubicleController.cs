@@ -47,6 +47,9 @@ public class CubicleController : MonoBehaviour
 		if(Cubicle==null){
 			return;
 		}
+		if(Cubicle.CubicleObjects.Count==0){
+			return;
+		}
 		Transform output = Cubicle.CubicleObjects.OrderByDescending(i => i.Work).FirstOrDefault().InteractionPoint;
 		//Debug.Log("wokr object",output);
 		OutputInteractionObject.Invoke(output);
@@ -63,5 +66,11 @@ public class CubicleController : MonoBehaviour
 	}
 	public void GetCubicleObjects(){
 		CubicleObjects = new List<CubicleObject>(GetComponentsInChildren<CubicleObject>());
+	}
+	public void AddCubicleGameObject(GameObject input){
+		CubicleObject output;
+		if(output = input.GetComponent<CubicleObject>()){
+			Cubicle.CubicleObjects.Add(output);
+		}
 	}
 }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DictObjSet - Cubicles
   m_EditorClassIdentifier: 
   Items: []
-  CompareKey: userid
+  CompareKey: UserID
   DictionaryObjectPrefab: {fileID: 864951771388949175, guid: fd807861d6825447a92886806d383bc0,
     type: 3}
   OutputGameObject:
