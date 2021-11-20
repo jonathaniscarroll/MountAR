@@ -74,6 +74,7 @@ public class TwitchChat : MonoBehaviour {
 			if(message == "PING :tmi.twitch.tv")
 			{
 				SendIRC("PONG :tmi.twitch.tv");
+				Debug.Log("doop");
 			}
 		}
 	}

@@ -19,4 +19,8 @@ public class Cubicle : ScriptableObject
 	}
 	[SerializeField]
 	private List<CubicleObject> cubicleObjects;
+	
+	void OnEnable(){
+		CubicleObjects = new List<CubicleObject>();
+	}
 }

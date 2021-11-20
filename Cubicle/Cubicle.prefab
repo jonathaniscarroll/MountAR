@@ -560,13 +560,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triggerEvents:
-  - trigger: 0
+  - trigger: 1
     eventToTrigger:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 2236970006161726779}
           m_TargetAssemblyTypeName: CubicleController, Assembly-CSharp
-          m_MethodName: Initilize
+          m_MethodName: Initialize
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -575,7 +575,7 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 2
+          m_CallState: 0
 --- !u!114 &864951771388949175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1480,7 +1480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7894696836984314169
 Transform:
   m_ObjectHideFlags: 0
@@ -1568,7 +1568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f27ea04b23e426ea2dc8271a7b63f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: {x: 0.1, y: 0.5}
+  range: {x: 0.01, y: 0.1}
   outputFloat:
     m_PersistentCalls:
       m_Calls:
@@ -2175,7 +2175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetToMove: {fileID: 4976955726973211630}
   _targetToMoveToward: {fileID: 7894696836984314169}
-  speed: 0.1
+  speed: 0
 --- !u!114 &6904148524266561455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2183,7 +2183,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6361550762087166913}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aaede1c77995448dcbd6fe0d280ccd83, type: 3}
   m_Name: 

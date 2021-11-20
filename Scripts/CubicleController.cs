@@ -11,7 +11,13 @@ public class CubicleEvent:UnityEvent<Cubicle>{
 public class CubicleController : MonoBehaviour
 {
 	public Cubicle Cubicle{
-		get{return cubicle;}set{cubicle = value;}
+		get{
+			return cubicle;
+		}
+		set{
+			
+			cubicle = value;
+		}
 	}
 	[SerializeField]
 	private Cubicle cubicle;
@@ -34,7 +40,7 @@ public class CubicleController : MonoBehaviour
 	//public TransformEvent OutputRestObjectEvent;
 	public TransformEvent OutputInteractionObject;
 	
-	public void Initilize(){
+	public void Initialize(){
 		if(CubicleObjects==null || CubicleObjects.Count ==0){
 			GetCubicleObjects();
 		}
@@ -69,6 +75,9 @@ public class CubicleController : MonoBehaviour
 	}
 	public void AddCubicleGameObject(GameObject input){
 		CubicleObject output;
+		if(Cubicle==null){
+			Initialize();
+		}
 		if(output = input.GetComponent<CubicleObject>()){
 			Cubicle.CubicleObjects.Add(output);
 		}
