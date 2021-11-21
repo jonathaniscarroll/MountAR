@@ -45,7 +45,7 @@ public class SliderFX : MonoBehaviour
 	public void OnSliderMove(){
 		if(ParticleObject != null){
 			if(TargetParticles != null){
-				int particlesToEmit = Random.RandomRange(MinParticlesPerTick, MaxParticlesPerTick);
+				int particlesToEmit = Random.Range(MinParticlesPerTick, MaxParticlesPerTick);
 				TargetParticles.Emit(particlesToEmit);
 			}else{
 				Debug.LogWarning(ParticleObject.name + " does not have an particle system to emit particles from.");
