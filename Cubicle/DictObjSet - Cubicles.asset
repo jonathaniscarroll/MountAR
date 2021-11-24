@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba3628f30e95f4370b065d8f3c21025d, type: 3}
   m_Name: DictObjSet - Cubicles
   m_EditorClassIdentifier: 
-  Items: []
-  CompareKey: UserID
+  Items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  CompareKey: InternName
   DictionaryObjectPrefab: {fileID: 864951771388949175, guid: fd807861d6825447a92886806d383bc0,
     type: 3}
   OutputGameObject:
@@ -31,3 +34,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OutputGameObjectListEvent:
+    m_PersistentCalls:
+      m_Calls: []

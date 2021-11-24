@@ -1445,7 +1445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _min: 1
-  _max: 39
+  _max: 38
   OutputInt:
     m_PersistentCalls:
       m_Calls:

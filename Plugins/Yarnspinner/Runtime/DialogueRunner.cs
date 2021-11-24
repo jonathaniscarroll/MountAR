@@ -272,7 +272,7 @@ namespace Yarn.Unity
         /// from.</param>
         public void StartDialogue(string startNode)
 	    {
-		    Debug.Log(startNode);
+		    //Debug.Log(startNode);
             // Stop any processes that might be running already
             foreach (var dialogueView in dialogueViews) {
                 if (dialogueView == null) continue;
@@ -658,7 +658,7 @@ namespace Yarn.Unity
 
                 // Set up the logging system.
                 LogDebugMessage = delegate (string message) {
-                    Debug.Log(message);
+                    //Debug.Log(message);
                 },
                 LogErrorMessage = delegate (string message) {
                     Debug.LogError(message);

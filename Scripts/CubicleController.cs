@@ -41,6 +41,7 @@ public class CubicleController : MonoBehaviour
 	public TransformEvent OutputInteractionObject;
 	
 	public void Initialize(){
+		Debug.Log("initializer");
 		if(CubicleObjects==null || CubicleObjects.Count ==0){
 			GetCubicleObjects();
 		}

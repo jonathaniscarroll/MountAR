@@ -29,4 +29,9 @@ public class CubicleObject : MonoBehaviour
 	//public Transform RestPosition;
 	public Transform InteractionPoint;
 	
+	[ExecuteInEditMode]
+	void Start(){
+		//gameObject.name = GetComponentInChildren<SpriteRenderer>().sprite.name;
+	}
+	
 }
