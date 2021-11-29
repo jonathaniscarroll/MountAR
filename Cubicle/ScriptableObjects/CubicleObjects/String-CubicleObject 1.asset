@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40f984fdfd84645dfa710969c34ea4bd, type: 3}
-  m_Name: String-CubicleObject1
+  m_Name: String-CubicleObject 1
   m_EditorClassIdentifier: 
   _value: 
   InitialValue: 
