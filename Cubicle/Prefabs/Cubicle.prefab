@@ -2767,16 +2767,6 @@ PrefabInstance:
       propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 3244788527359221394}
-    - target: {fileID: 6302024538917162476, guid: 149fef8c31d924fcb8d4cf10a3051a28,
-        type: 3}
-      propertyPath: Pool.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302024538917162476, guid: 149fef8c31d924fcb8d4cf10a3051a28,
-        type: 3}
-      propertyPath: Pool.Array.data[0]
-      value: 
-      objectReference: {fileID: 3244788527359221394}
     - target: {fileID: 7703627246210178258, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: Event
@@ -2895,16 +2885,6 @@ PrefabInstance:
     - target: {fileID: 6085489778804174754, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 1790168981675289047}
-    - target: {fileID: 6302024538917162476, guid: 149fef8c31d924fcb8d4cf10a3051a28,
-        type: 3}
-      propertyPath: Pool.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302024538917162476, guid: 149fef8c31d924fcb8d4cf10a3051a28,
-        type: 3}
-      propertyPath: Pool.Array.data[0]
       value: 
       objectReference: {fileID: 1790168981675289047}
     - target: {fileID: 9001270165307934603, guid: 149fef8c31d924fcb8d4cf10a3051a28,
@@ -3573,6 +3553,11 @@ PrefabInstance:
       propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Raise
       objectReference: {fileID: 0}
+    - target: {fileID: 6085489778804174754, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7703627246210178258, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: Event
@@ -3707,16 +3692,6 @@ PrefabInstance:
     - target: {fileID: 6085489778804174754, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 1778406186519796343}
-    - target: {fileID: 6302024538917162476, guid: 149fef8c31d924fcb8d4cf10a3051a28,
-        type: 3}
-      propertyPath: Pool.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302024538917162476, guid: 149fef8c31d924fcb8d4cf10a3051a28,
-        type: 3}
-      propertyPath: Pool.Array.data[0]
       value: 
       objectReference: {fileID: 1778406186519796343}
     - target: {fileID: 7703627246210178258, guid: 149fef8c31d924fcb8d4cf10a3051a28,
@@ -3928,16 +3903,6 @@ PrefabInstance:
     - target: {fileID: 6085489778804174754, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 5978346677321911238}
-    - target: {fileID: 6302024538917162476, guid: 149fef8c31d924fcb8d4cf10a3051a28,
-        type: 3}
-      propertyPath: Pool.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302024538917162476, guid: 149fef8c31d924fcb8d4cf10a3051a28,
-        type: 3}
-      propertyPath: Pool.Array.data[0]
       value: 
       objectReference: {fileID: 5978346677321911238}
     - target: {fileID: 7703627246210178258, guid: 149fef8c31d924fcb8d4cf10a3051a28,
@@ -4224,16 +4189,6 @@ PrefabInstance:
     - target: {fileID: 6085489778804174754, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 646580430050710053}
-    - target: {fileID: 6302024538917162476, guid: 149fef8c31d924fcb8d4cf10a3051a28,
-        type: 3}
-      propertyPath: Pool.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302024538917162476, guid: 149fef8c31d924fcb8d4cf10a3051a28,
-        type: 3}
-      propertyPath: Pool.Array.data[0]
       value: 
       objectReference: {fileID: 646580430050710053}
     - target: {fileID: 7703627246210178258, guid: 149fef8c31d924fcb8d4cf10a3051a28,
