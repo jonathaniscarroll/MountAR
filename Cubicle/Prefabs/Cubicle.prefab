@@ -2611,6 +2611,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: desk Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5936126232895555878, guid: d5ee1fb8b7228487b93f92d0ea7df2ee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5936126232895555879, guid: d5ee1fb8b7228487b93f92d0ea7df2ee,
         type: 3}
       propertyPath: m_RootOrder
@@ -2668,12 +2673,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5ee1fb8b7228487b93f92d0ea7df2ee, type: 3}
---- !u!1 &5978346677321911238 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5936126232895555878, guid: d5ee1fb8b7228487b93f92d0ea7df2ee,
-    type: 3}
-  m_PrefabInstance: {fileID: 42223425136542432}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1868596644297404211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2694,7 +2693,7 @@ PrefabInstance:
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.6460001
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -2704,7 +2703,7 @@ PrefabInstance:
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -2748,14 +2747,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
       propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 11400000, guid: b95dfb68dbdc1483895574dd57d2f716,
         type: 2}
     - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2236970006161726779}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
       propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AddCubicleGameObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CubicleController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4492578955470090192, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -2766,7 +2800,8 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 3244788527359221394}
+      objectReference: {fileID: 945612489452784016, guid: 29c1f5583c61744b3927f556c10084a1,
+        type: 3}
     - target: {fileID: 7703627246210178258, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: Event
@@ -2780,6 +2815,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 149fef8c31d924fcb8d4cf10a3051a28, type: 3}
+--- !u!4 &2372955240651201983 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+    type: 3}
+  m_PrefabInstance: {fileID: 1868596644297404211}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4119099824445192045 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2361977235570202718, guid: 149fef8c31d924fcb8d4cf10a3051a28,
@@ -2804,12 +2845,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b5608ce3d8a1104796508de7e64d64b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &2372955240651201983 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
-    type: 3}
-  m_PrefabInstance: {fileID: 1868596644297404211}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1881865787811918942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2830,17 +2865,17 @@ PrefabInstance:
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.033
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.24700004
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -2877,6 +2912,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2236970006161726779}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AddCubicleGameObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CubicleController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4492578955470090192, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_RootOrder
@@ -2886,7 +2956,8 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1790168981675289047}
+      objectReference: {fileID: 4740097546961063341, guid: fa6cfed19f2e94f05bc0032ef2bf30df,
+        type: 3}
     - target: {fileID: 9001270165307934603, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_Name
@@ -3412,6 +3483,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: door Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 945612489452784016, guid: 29c1f5583c61744b3927f556c10084a1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 945612489452784017, guid: 29c1f5583c61744b3927f556c10084a1,
         type: 3}
       propertyPath: m_RootOrder
@@ -3469,12 +3545,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29c1f5583c61744b3927f556c10084a1, type: 3}
---- !u!1 &3244788527359221394 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 945612489452784016, guid: 29c1f5583c61744b3927f556c10084a1,
-    type: 3}
-  m_PrefabInstance: {fileID: 2312792428593272578}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2609268515338298529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3500,7 +3570,7 @@ PrefabInstance:
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.574
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -3544,14 +3614,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
       propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 11400000, guid: 434b60e156b364dd39b370be6a21928c,
         type: 2}
     - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2236970006161726779}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
       propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AddCubicleGameObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CubicleController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6085489778804174754, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -3621,7 +3726,7 @@ PrefabInstance:
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.288
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -3631,7 +3736,7 @@ PrefabInstance:
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.474
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -3675,14 +3780,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
       propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 11400000, guid: a8bed363b2d1947e0909bc5f10aacc53,
         type: 2}
     - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2236970006161726779}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
       propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AddCubicleGameObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CubicleController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4492578955470090192, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -3693,7 +3833,8 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1778406186519796343}
+      objectReference: {fileID: 8902278809528017682, guid: a64fd64a4db924a6882a17503c76ded4,
+        type: 3}
     - target: {fileID: 7703627246210178258, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: Event
@@ -3804,14 +3945,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bean Bag
       objectReference: {fileID: 0}
+    - target: {fileID: 4740097546961063341, guid: fa6cfed19f2e94f05bc0032ef2bf30df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa6cfed19f2e94f05bc0032ef2bf30df, type: 3}
---- !u!1 &1790168981675289047 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4740097546961063341, guid: fa6cfed19f2e94f05bc0032ef2bf30df,
-    type: 3}
-  m_PrefabInstance: {fileID: 6422063449760408698}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6701712434942689779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3832,7 +3972,7 @@ PrefabInstance:
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.302
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -3842,7 +3982,7 @@ PrefabInstance:
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.134
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -3886,14 +4026,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
       propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 11400000, guid: 69cf020d6be014a1c9d258af057e5e42,
         type: 2}
     - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2236970006161726779}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
       propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AddCubicleGameObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CubicleController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4492578955470090192, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -3904,7 +4079,8 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 5978346677321911238}
+      objectReference: {fileID: 5936126232895555878, guid: d5ee1fb8b7228487b93f92d0ea7df2ee,
+        type: 3}
     - target: {fileID: 7703627246210178258, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: Event
@@ -3959,6 +4135,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Cooler
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902278809528017682, guid: a64fd64a4db924a6882a17503c76ded4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8902278809528017683, guid: a64fd64a4db924a6882a17503c76ded4,
         type: 3}
@@ -4017,12 +4198,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a64fd64a4db924a6882a17503c76ded4, type: 3}
---- !u!1 &1778406186519796343 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8902278809528017682, guid: a64fd64a4db924a6882a17503c76ded4,
-    type: 3}
-  m_PrefabInstance: {fileID: 7144138821351324005}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7443149393503143575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4034,6 +4209,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sleeping Bag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8048633514281604274, guid: d89a5da2ba3fe42a081dd6e51bcc89cc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8048633514281604275, guid: d89a5da2ba3fe42a081dd6e51bcc89cc,
         type: 3}
@@ -4092,12 +4272,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d89a5da2ba3fe42a081dd6e51bcc89cc, type: 3}
---- !u!1 &646580430050710053 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8048633514281604274, guid: d89a5da2ba3fe42a081dd6e51bcc89cc,
-    type: 3}
-  m_PrefabInstance: {fileID: 7443149393503143575}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7696907372700303506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4118,7 +4292,7 @@ PrefabInstance:
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.465
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -4128,7 +4302,7 @@ PrefabInstance:
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.076
       objectReference: {fileID: 0}
     - target: {fileID: 4107556120497746572, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -4172,14 +4346,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
       propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 11400000, guid: 8be8c13019fa0467dba75cbabaeec3bb,
         type: 2}
     - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2236970006161726779}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
       propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AddCubicleGameObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CubicleController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343081065939772698, guid: 149fef8c31d924fcb8d4cf10a3051a28,
+        type: 3}
+      propertyPath: GameObjectEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4492578955470090192, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
@@ -4190,7 +4399,8 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 646580430050710053}
+      objectReference: {fileID: 8048633514281604274, guid: d89a5da2ba3fe42a081dd6e51bcc89cc,
+        type: 3}
     - target: {fileID: 7703627246210178258, guid: 149fef8c31d924fcb8d4cf10a3051a28,
         type: 3}
       propertyPath: Event

@@ -2769,6 +2769,12 @@ MonoBehaviour:
   objectsToPersist:
   - {fileID: 11400000, guid: a7b83f197646340dd9cff70bca00b1ea, type: 2}
   - {fileID: 11400000, guid: e734a23b23c3b4c0da0878aa62c289e8, type: 2}
+  - {fileID: 11400000, guid: 10019f081ebef45f798b42da25824ca5, type: 2}
+  - {fileID: 11400000, guid: ea970a13ddc4142b2a22d20ae4b9b6e9, type: 2}
+  - {fileID: 11400000, guid: 484c2efb3861a43ff8c44917f1a12e1c, type: 2}
+  - {fileID: 11400000, guid: 63d85a71e54d449919b3f3032c42e330, type: 2}
+  - {fileID: 11400000, guid: 9d4faea521ac34b3a98a37ae5f37a59b, type: 2}
+  - {fileID: 11400000, guid: ce7dbb669c8014485bc2de571b8cfc3d, type: 2}
   OutputJSON:
     m_PersistentCalls:
       m_Calls: []

@@ -57,9 +57,9 @@ MonoBehaviour:
   OutputEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 18821e1f53e0d46c1b39d28041854bee, type: 2}
-        m_TargetAssemblyTypeName: StringGameEvent, Assembly-CSharp
-        m_MethodName: Raise
+      - m_Target: {fileID: 11400000, guid: 1d4e82df8de9246f3b62e1a4348a3938, type: 2}
+        m_TargetAssemblyTypeName: StringVar, Assembly-CSharp
+        m_MethodName: set_Value
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
