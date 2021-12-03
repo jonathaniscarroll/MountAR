@@ -1756,37 +1756,6 @@ PrefabInstance:
       propertyPath: trueEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 681524886181998161, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 681524886181998161, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: ea970a13ddc4142b2a22d20ae4b9b6e9,
-        type: 2}
-    - target: {fileID: 681524886181998161, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Output
-      objectReference: {fileID: 0}
-    - target: {fileID: 681524886181998161, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: StringVar, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 681524886181998161, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 681524886181998161, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 711908734889202321, guid: fd807861d6825447a92886806d383bc0,
         type: 3}
       propertyPath: m_RootOrder
@@ -2245,37 +2214,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 3.4801517
       objectReference: {fileID: 0}
-    - target: {fileID: 4513988704956034864, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4513988704956034864, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: 484c2efb3861a43ff8c44917f1a12e1c,
-        type: 2}
-    - target: {fileID: 4513988704956034864, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Output
-      objectReference: {fileID: 0}
-    - target: {fileID: 4513988704956034864, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: StringVar, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 4513988704956034864, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4513988704956034864, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 4547094997647439604, guid: fd807861d6825447a92886806d383bc0,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -2400,68 +2338,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.60671693
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591946854044647569, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591946854044647569, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: 9d4faea521ac34b3a98a37ae5f37a59b,
-        type: 2}
-    - target: {fileID: 5591946854044647569, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Output
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591946854044647569, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: StringVar, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591946854044647569, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5591946854044647569, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 5650251993711238140, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5650251993711238140, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: 10019f081ebef45f798b42da25824ca5,
-        type: 2}
-    - target: {fileID: 5650251993711238140, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Output
-      objectReference: {fileID: 0}
-    - target: {fileID: 5650251993711238140, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: StringVar, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5650251993711238140, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5650251993711238140, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5793685790356885729, guid: fd807861d6825447a92886806d383bc0,
         type: 3}
@@ -2907,37 +2783,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.98141474
-      objectReference: {fileID: 0}
-    - target: {fileID: 9058433466406870064, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9058433466406870064, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: 63d85a71e54d449919b3f3032c42e330,
-        type: 2}
-    - target: {fileID: 9058433466406870064, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Output
-      objectReference: {fileID: 0}
-    - target: {fileID: 9058433466406870064, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: StringVar, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 9058433466406870064, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9058433466406870064, guid: fd807861d6825447a92886806d383bc0,
-        type: 3}
-      propertyPath: triggerEvents.Array.data[0].eventToTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9077340857268657193, guid: fd807861d6825447a92886806d383bc0,
         type: 3}
