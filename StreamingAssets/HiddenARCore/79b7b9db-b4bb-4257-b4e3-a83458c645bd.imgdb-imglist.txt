@@ -1,0 +1,8 @@
+22911a3741df4ce5946a7164f31c159c|Assets/ImageTrackers/AR_p_21.png|1
+5c3be96142e248de996557aacc05d362|Assets/ImageTrackers/AR_p_3.png|1
+cbc3caccc5b4421e8022010ca6f54c72|Assets/ImageTrackers/AR_p_77.png|1
+297f8675c9dc4861ba110f9a1b453246|Assets/ImageTrackers/AR_p_80.jpg|1
+726d8a6a2eaa487989b718731130b5f8|Assets/ImageTrackers/AR_p_110.png|1
+b5a2dc5ed54148e49b8053a33f6fe30f|Assets/ImageTrackers/AR_p_47.jpg|1
+2a435f6f48a441faa536426f8f25a1ca|Assets/ImageTrackers/AR_p_46.jpg|1
+c5e5a9d7cdd74250af193fb027eb8138|Assets/ImageTrackers/AR_p_81.jpg|1
