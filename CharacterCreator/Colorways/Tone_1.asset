@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396c7c123eb6f4383861e08ef974d2e5, type: 3}
+  m_Name: Tone_1
+  m_EditorClassIdentifier: 
+  _value:
+  - {fileID: 21300000, guid: c16c7612de4fe442992272fdf60c52f0, type: 3}
+  - {fileID: 21300000, guid: ca6e57bb9dcea48b89b2e7fbcdd33874, type: 3}
+  - {fileID: 21300000, guid: 1b7e51382a6a94beaa722b6fc01a8892, type: 3}
+  - {fileID: 21300000, guid: f7f75b5d6800c4a4bbd441414851af16, type: 3}
+  - {fileID: 21300000, guid: 7a7b6b7f5641246c3850710b60d12e44, type: 3}
+  _iteratorInteger: 0
+  ListEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  IterateListOutput:
+    m_PersistentCalls:
+      m_Calls: []
